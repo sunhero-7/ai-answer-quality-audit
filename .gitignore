@@ -1,0 +1,9 @@
+# Local and private files
+.DS_Store
+__pycache__/
+*.pyc
+.env*
+.venv/
+private_map.json
+original_brief.txt
+work/
