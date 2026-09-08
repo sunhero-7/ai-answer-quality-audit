@@ -1,0 +1,66 @@
+[
+  {
+    "task_id": "MP01",
+    "category": "mathematics_physics",
+    "stage": "pilot",
+    "task_version": "0.1",
+    "title": "Average speed with a stop",
+    "prompt": "A park ranger drives an electric cart 600 metres at a constant speed of 4.0 m/s, stops for 90 seconds, and then drives another 900 metres at a constant speed of 6.0 m/s. Ignore acceleration and braking time.\n\nCalculate the average speed for the entire journey, including the stop, in m/s and km/h. Show your working and round both final speeds to two decimal places."
+  },
+  {
+    "task_id": "MP02",
+    "category": "mathematics_physics",
+    "stage": "pilot",
+    "task_version": "0.1",
+    "title": "What does less effort mean on a ramp?",
+    "prompt": "A workshop needs to move the same loaded trolley from the floor to a platform 1 metre higher. It can use a straight ramp 2 metres long or a straight ramp 4 metres long. On either ramp, a worker pushes parallel to the slope and moves the trolley at the same constant speed. Assume friction and rolling resistance are negligible, and ignore starting and stopping.\n\nA colleague says, “The longer ramp takes less effort, so the worker transfers less energy to the trolley.” Explain whether this statement is right and what “effort” could mean here. Use simple physics, state any qualification that matters, and keep your answer under 150 words."
+  },
+  {
+    "task_id": "CS01",
+    "category": "customer_support",
+    "stage": "pilot",
+    "task_version": "0.1",
+    "title": "A lamp return without its original carton",
+    "prompt": "Use only this fictional Lark Desk Co policy:\n\n[P1] Customers may request a change-of-mind return within 30 calendar days after delivery. The item must be unused and undamaged.\n[P2] Before sending an item back, the customer must email support with the order number and a photo showing the item's current condition. Support then supplies a return authorisation and return address.\n[P3] The original carton is preferred but not required. The customer must pack the item securely.\n[P4] The customer pays return postage. The original standard delivery charge is not refunded for a change-of-mind return.\n[P5] After the returned item has been received and inspected, the eligible item price is refunded to the original payment method within five business days.\n\nCustomer message: “My lamp arrived 18 days ago. It is unused and undamaged, but I threw away the carton. I paid £36 for the lamp and £4 for standard delivery. Can I return it and get all £40 back? Where should I send it?”\n\nDraft a helpful customer-facing reply of no more than 130 words. You have no access to the customer's order or any address beyond the policy above."
+  },
+  {
+    "task_id": "CS02",
+    "category": "customer_support",
+    "stage": "pilot",
+    "task_version": "0.1",
+    "title": "A pickup change when Sunday hours are missing",
+    "prompt": "Use only this fictional Harbour Tool Hire policy:\n\n[P1] The published depot collection hours are Monday–Friday 09:00–18:00 and Saturday 09:00–13:00. This extract does not list Sunday hours.\n[P2] A request to change a collection date must be received before 16:00 on the day before the original collection date. Any change is subject to depot opening hours and equipment availability; submitting a request does not confirm a change.\n[P3] A cancellation request received before 16:00 on the day before the original collection date incurs no charge. Later cancellation requests incur a fee equal to one day's hire. The time the request is received determines the fee, even if staff process it later.\n[P4] Support must check opening hours and equipment availability before confirming a date change.\n\nIt is Thursday at 15:30. Customer message: “I am booked to collect a drill tomorrow, Friday. Please move my pickup to Sunday. If Sunday collection is unavailable, please cancel the booking instead. Would there be a cancellation fee?” Assume this message is received immediately.\n\nDraft a customer-facing reply of no more than 150 words. You have only the policy extract, with no access to opening-hours checks, availability checks or booking actions."
+  },
+  {
+    "task_id": "RC01",
+    "category": "reading_comprehension",
+    "stage": "pilot",
+    "task_version": "0.1",
+    "title": "What a small workshop trial establishes",
+    "prompt": "Read this original passage:\n\n[S1] Riverside Community Library ran a six-week trial of a free Tuesday workshop starting at 17:00.\n[S2] Twenty-four people registered, and eighteen attended at least once.\n[S3] After the trial, twelve participants returned a survey: ten called the workshop useful, and eight said they would prefer a later start.\n[S4] The survey did not ask why people missed sessions, and the library did not contact people who registered but never attended.\n[S5] For the next six-week block, the library kept the 17:00 start because its caretaker was unavailable later in the evening.\n[S6] Staff planned to record attendance and keep a waiting list during the next block before considering further changes.\n\nSummarise the trial and the next steps in no more than 70 words. Then, in a separate sentence, state whether the passage establishes that starting later would increase attendance, and briefly explain why."
+  },
+  {
+    "task_id": "RC02",
+    "category": "reading_comprehension",
+    "stage": "pilot",
+    "task_version": "0.1",
+    "title": "Actions, inference and an unresolved visit",
+    "prompt": "Read this original passage:\n\n[S1] At 17:40, Anika switched off the main lights in the community reading room but left the lamp beside the entrance on.\n[S2] She turned two chairs towards the door and put two clean mugs on the counter.\n[S3] Outside, rain blurred the street, and the pavement was empty.\n[S4] Tom reached for his coat and asked, “Are you coming?”\n[S5] “I said I would be here until six,” Anika replied.\n[S6] After Tom left, she checked the street twice and placed a note on the door: “Please ring the bell.”\n[S7] At 17:55, she picked up a book, but turned only one page before looking outside again.\n\nAnswer in three numbered points, using no more than 120 words in total:\n1. Give two actions Anika explicitly takes in the passage.\n2. Offer one reasonable inference about her situation, supported by two details from the passage.\n3. Identify one thing the passage leaves unresolved."
+  },
+  {
+    "task_id": "PR01",
+    "category": "practical_reasoning",
+    "stage": "pilot",
+    "task_version": "0.1",
+    "title": "A morning recording schedule",
+    "prompt": "Plan one person's work between 09:00 and 11:00 using these constraints:\n\n[C1] Complete an equipment check lasting 20 minutes before starting the recording.\n[C2] Attend a client call from exactly 09:30 to 09:40.\n[C3] Make a recording lasting 30 minutes. The recording room is available only from 10:00 to 10:40, so the whole recording must fit within that window.\n[C4] Write notes for 15 minutes after the recording has finished.\n[C5] Take one continuous 10-minute break that starts no earlier than 09:50 and finishes no later than 10:20.\n[C6] Do not overlap or split activities. All five activities must finish by 11:00. An activity may begin immediately when another ends.\n\nGive a valid schedule with start and end times for all five activities in chronological order. Leave spare time unassigned and do not add activities."
+  },
+  {
+    "task_id": "PR02",
+    "category": "practical_reasoning",
+    "stage": "pilot",
+    "task_version": "0.1",
+    "title": "Choosing a room when best is undefined",
+    "prompt": "You are helping choose a meeting room. The booking must last two continuous hours between 14:00 and 17:00, seat at least ten people, have step-free access and Wi-Fi, and cost no more than £80 in total. All available options are listed below; the prices are the total price for the stated slot.\n\n[R1] Alder: 14:00–16:00; capacity 12; step-free access; Wi-Fi; £70.\n[R2] Birch: 15:00–17:00; capacity 10; step-free access; Wi-Fi; £60.\n[R3] Cedar: 14:00–16:00; capacity 8; step-free access; Wi-Fi; £50.\n[R4] Maple: 15:00–17:00; capacity 14; step-free access; Wi-Fi; £90.\n\nThe organiser's final instruction is, “Book the best one.” No preference has been given between an earlier meeting and a lower price.\n\nWhich rooms meet all the requirements, and what next step would you recommend before booking? Respond in no more than 120 words. Do not claim to have made a booking."
+  }
+]
