@@ -1,0 +1,3 @@
+date,tool,activity,artifact_or_scope,human_work_claimed,limitation
+2026-09-08,Codex with collaborating AI agents,"Drafting, organisation, reference checks, blank workbook and Python tooling",Pilot preparation packet,None,Reference keys require Dominic verification. AI technical checks are not independent human review.
+2026-09-08,Codex with collaborating AI agents,"Prepared public repository documentation and copied synthetic tool tests; checked status, file hygiene and relative links",Public work-in-progress repository,None,"Public preparation does not constitute completed reference verification, collection, annotations or results."

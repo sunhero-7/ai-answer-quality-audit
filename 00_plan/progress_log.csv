@@ -1,0 +1,4 @@
+date,actor,activity,status,actual_hours,evidence,notes
+2026-09-08,Dominic Da Silva,Selected target completion date of 2026-09-15,completed,,User reply in project conversation,Actual hours not reported.
+2026-09-08,Codex (AI),"Prepared pilot materials, draft rubric, blank templates and collection workflow",completed,,README.md and referenced project files,"Human verification, collection and annotations pending. No human hours attributed."
+2026-09-08,Codex (AI),Prepared public work-in-progress repository copy,completed,,README.md and 06_quality/public_preparation_check.md,Original pilot tasks and audit tool preserved. All substantive human evaluation remains pending.

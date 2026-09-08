@@ -1,0 +1,5 @@
+category,planned_tasks,pilot_tasks_prepared,remaining_tasks_to_prepare,planned_responses,responses_collected,human_annotations_completed
+mathematics_physics,10,2,8,20,0,0
+customer_support,10,2,8,20,0,0
+reading_comprehension,10,2,8,20,0,0
+practical_reasoning,10,2,8,20,0,0
