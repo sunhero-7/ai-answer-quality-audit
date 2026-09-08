@@ -1,0 +1,2 @@
+revision_id,recorded_at,record_type,record_id,original_path,new_path,field,old_value,new_value,reason,decided_by
+REV-001,2026-09-08T13:40:56.564666+00:00,draft_reference,RC02,03_references/pilot_references.json,03_references/pilot_references.json,expected_answer and checklist,Example supplies two unresolved matters; checklist says at least one,Example supplies one unresolved matter; checklist says one,Align example and checklist with exact prompt requirement before human verification or collection,Codex (AI)

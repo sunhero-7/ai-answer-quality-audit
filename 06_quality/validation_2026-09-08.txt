@@ -1,0 +1,9 @@
+Command: python3 07_scripts/audit.py validate
+
+Pilot tasks: 8/8; reference records: 8/8
+Reference decisions recorded as verified: 0/8
+Responses recorded: 0/16; missing: 16
+Annotation rows: 16; complete: 0; needs clarification: 0; in progress: 0; pending: 16
+Provenance is user-recorded. Hashes check saved bytes, not vendor authorship or answer quality.
+Structural validation: PASS. This does not mean the project is complete.
+PENDING: collection and/or human review remains outstanding; see counts above.
