@@ -1,0 +1,1 @@
+response_id,task_id,slot,task_version,model,generated_at,date_precision,source,session_id,settings,collector,source_status,imported_at,prompt_sha256,reply_sha256,raw_path,actual_prompt_path
