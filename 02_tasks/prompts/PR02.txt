@@ -1,0 +1,10 @@
+You are helping choose a meeting room. The booking must last two continuous hours between 14:00 and 17:00, seat at least ten people, have step-free access and Wi-Fi, and cost no more than £80 in total. All available options are listed below; the prices are the total price for the stated slot.
+
+[R1] Alder: 14:00–16:00; capacity 12; step-free access; Wi-Fi; £70.
+[R2] Birch: 15:00–17:00; capacity 10; step-free access; Wi-Fi; £60.
+[R3] Cedar: 14:00–16:00; capacity 8; step-free access; Wi-Fi; £50.
+[R4] Maple: 15:00–17:00; capacity 14; step-free access; Wi-Fi; £90.
+
+The organiser's final instruction is, “Book the best one.” No preference has been given between an earlier meeting and a lower price.
+
+Which rooms meet all the requirements, and what next step would you recommend before booking? Respond in no more than 120 words. Do not claim to have made a booking.

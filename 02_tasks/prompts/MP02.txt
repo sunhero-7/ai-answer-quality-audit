@@ -1,0 +1,3 @@
+A workshop needs to move the same loaded trolley from the floor to a platform 1 metre higher. It can use a straight ramp 2 metres long or a straight ramp 4 metres long. On either ramp, a worker pushes parallel to the slope and moves the trolley at the same constant speed. Assume friction and rolling resistance are negligible, and ignore starting and stopping.
+
+A colleague says, “The longer ramp takes less effort, so the worker transfers less energy to the trolley.” Explain whether this statement is right and what “effort” could mean here. Use simple physics, state any qualification that matters, and keep your answer under 150 words.

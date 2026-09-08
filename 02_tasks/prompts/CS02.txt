@@ -1,0 +1,10 @@
+Use only this fictional Harbour Tool Hire policy:
+
+[P1] The published depot collection hours are Monday–Friday 09:00–18:00 and Saturday 09:00–13:00. This extract does not list Sunday hours.
+[P2] A request to change a collection date must be received before 16:00 on the day before the original collection date. Any change is subject to depot opening hours and equipment availability; submitting a request does not confirm a change.
+[P3] A cancellation request received before 16:00 on the day before the original collection date incurs no charge. Later cancellation requests incur a fee equal to one day's hire. The time the request is received determines the fee, even if staff process it later.
+[P4] Support must check opening hours and equipment availability before confirming a date change.
+
+It is Thursday at 15:30. Customer message: “I am booked to collect a drill tomorrow, Friday. Please move my pickup to Sunday. If Sunday collection is unavailable, please cancel the booking instead. Would there be a cancellation fee?” Assume this message is received immediately.
+
+Draft a customer-facing reply of no more than 150 words. You have only the policy extract, with no access to opening-hours checks, availability checks or booking actions.
