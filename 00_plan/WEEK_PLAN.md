@@ -1,5 +1,7 @@
 # Week plan
 
+**10 September checkpoint:** the original 8–9 September review and collection milestones were not completed. The schedule below is retained as the original plan. Human reference verification is the next step; the target date has not been changed. The remaining 32 tasks are now being drafted provisionally, with review and revisions required after the pilot. No hours in this plan are actual hours.
+
 Target completion: **15 September 2026**, confirmed by Dominic on 8 September. All durations below are **estimates**, not logged work. Total planned effort: **15 hours**; allow 12–18 hours by adjusting batch time. If the real annotation pace makes this unrealistic, extend the date and record the change rather than omitting decisions or claiming hours.
 
 | Date | Planned activity | Estimated hours | Evidence to save |
@@ -30,4 +32,4 @@ Pause after every batch for Dominic's judgments. Preserve all 16 first decisions
 
 ## Remaining dataset
 
-Plan eight additional tasks per category (32 total). Draft after learning from the pilot, then verify and freeze each key before collecting candidate answers. Include simple, multi-step, boundary, and ambiguity cases without deliberately introducing errors into the answers. Record any exclusions and replacements; never discard a response just because it is correct, incorrect or inconvenient.
+Eight additional tasks per category (32 total) are available as provisional preparation drafts. Revisit them after learning from the pilot, then verify and freeze each key before collecting candidate answers. Include simple, multi-step, boundary, and ambiguity cases without deliberately introducing errors into the answers. Record any exclusions and replacements; never discard a response just because it is correct, incorrect or inconvenient.

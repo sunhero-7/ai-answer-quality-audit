@@ -1,5 +1,5 @@
-category,planned_tasks,pilot_tasks_prepared,remaining_tasks_to_prepare,planned_responses,responses_collected,human_annotations_completed
-mathematics_physics,10,2,8,20,0,0
-customer_support,10,2,8,20,0,0
-reading_comprehension,10,2,8,20,0,0
-practical_reasoning,10,2,8,20,0,0
+category,planned_tasks,pilot_tasks_prepared,main_tasks_prepared,remaining_tasks_to_prepare,planned_responses,responses_collected,ai_annotations_completed,human_annotations_completed,human_rechecks_completed
+mathematics_physics,10,2,8,0,20,20,20,0,0
+customer_support,10,2,8,0,20,20,20,0,0
+reading_comprehension,10,2,8,0,20,20,20,0,0
+practical_reasoning,10,2,8,0,20,20,20,0,0
