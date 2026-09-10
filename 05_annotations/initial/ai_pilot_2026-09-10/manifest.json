@@ -1,0 +1,13 @@
+{
+  "frozen_at": "2026-09-10T15:54:49+00:00",
+  "submitted_sha256": "b5a5ad371ddbf48a0d4b62c2ee8542c8e27332ac0ecbd2da742f1c43deed05b7",
+  "row_count": 16,
+  "rounds": [
+    "pilot_initial"
+  ],
+  "rubric_versions": [
+    "0.1"
+  ],
+  "mapping_sha256": null,
+  "notice": "Original submitted bytes. This records submission, not independent proof of human authorship."
+}
