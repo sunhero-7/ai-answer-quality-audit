@@ -1,0 +1,9 @@
+| Activity | Start | End |
+|---|---|---|
+| Check file | 13:00 | 13:15 |
+| Print cards automatically | 13:15 | 13:35 |
+| Collect delivery | 13:30 | 13:40 |
+| Trim cards | 13:40 | 13:55 |
+| Pack cards | 13:55 | 14:05 |
+
+All other time remains unassigned.

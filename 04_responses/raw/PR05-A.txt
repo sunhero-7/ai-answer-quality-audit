@@ -1,0 +1,4 @@
+- **Box 1:** A, E, F — \(6+2+2=10\) kg.
+- **Box 2:** B, C, D — \(5+4+3=12\) kg.
+
+Exactly two boxes are used, each with three whole items and no more than 12 kg. Every item appears once, A and B are separated, and E and F stay together.

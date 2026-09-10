@@ -1,0 +1,7 @@
+Using DRAW10 alone, your total would be **£41**:
+
+£30 stationery − £3 discount + £10 gift card + £4 standard delivery = **£41**.
+
+You wouldn’t receive the free eraser because your eligible stationery subtotal after the discount is £27, below the £30 threshold. The gift card and delivery charge don’t count towards that threshold.
+
+Only one promotional code can be applied, so DRAW10 can’t be combined with the additional 5%-off code.

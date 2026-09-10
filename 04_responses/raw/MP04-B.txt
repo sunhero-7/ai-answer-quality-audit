@@ -1,0 +1,9 @@
+No. Averaging the two group means gives each group equal weight, which is justified only if the groups have equal numbers of participants.
+
+Group A’s total completion time is \(12 \times 8 = 96\) minutes. If Group B has \(n \ge 1\) participants, the combined mean is
+
+\[
+\frac{96 + 11n}{12+n}\text{ minutes}.
+\]
+
+This equals \(9.5\) minutes exactly when \(n=12\). The missing information is Group B’s number of participants; without it, the combined mean cannot be determined uniquely.

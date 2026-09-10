@@ -1,0 +1,16 @@
+In UTC, availability is:
+
+- Maya: 09:00–10:00
+- Luis: 09:30–10:15
+- Sana: 09:45–10:30
+
+The original shared interval is **09:45–10:00 UTC**, only 15 minutes, so a 30-minute call is impossible.
+
+The earliest shared start is 09:45 UTC, requiring availability until 10:15 UTC. Maya must extend her end by **15 minutes**, the smallest possible extension.
+
+The resulting call is:
+
+- **UTC:** 09:45–10:15
+- **Maya:** 09:45–10:15 local
+- **Luis:** 06:45–07:15 local
+- **Sana:** 11:45–12:15 local

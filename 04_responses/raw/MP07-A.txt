@@ -1,0 +1,33 @@
+The block’s volume is
+
+\[
+V=6.0\times4.0\times2.5=60\ \text{cm}^3.
+\]
+
+Since \(1\ \text{cm}=0.01\ \text{m}\),
+
+\[
+1\ \text{cm}^3=(0.01\ \text{m})^3=10^{-6}\ \text{m}^3,
+\]
+so
+\[
+V=60\times10^{-6}=0.000060\ \text{m}^3.
+\]
+
+The conversion factor is cubed because volume multiplies **three lengths**: each dimension contributes a factor of \(0.01\).
+
+The density is
+
+\[
+\rho=\frac{180\ \text{g}}{60\ \text{cm}^3}
+=3\ \text{g/cm}^3.
+\]
+
+Converting the mass, \(180\ \text{g}\div1000=0.180\ \text{kg}\), gives
+
+\[
+\rho=\frac{0.180\ \text{kg}}{0.000060\ \text{m}^3}
+=3000\ \text{kg/m}^3.
+\]
+
+Thus, **volume = \(60\ \text{cm}^3=0.000060\ \text{m}^3\)** and **density = \(3\ \text{g/cm}^3=3000\ \text{kg/m}^3\)**.

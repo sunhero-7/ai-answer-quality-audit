@@ -1,0 +1,17 @@
+Using **energy = power × time**:
+
+- **Lamp A:** \(12 \times 5 = 60\text{ Wh}\)  
+  \(60 \div 1{,}000 = 0.060\text{ kWh}\)
+
+- **Lamp B:** \(8 \times 8 = 64\text{ Wh}\)  
+  \(64 \div 1{,}000 = 0.064\text{ kWh}\)
+
+**Lamp B uses more energy**, by:
+\[
+64 - 60 = 4\text{ Wh}
+\]
+\[
+4 \times 3{,}600 = 14{,}400\text{ J}
+\]
+
+Lower power does not necessarily mean lower total energy use because energy also depends on how long the lamp operates. Lamp B’s longer operating time outweighs its lower power.

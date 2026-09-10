@@ -1,0 +1,22 @@
+Time spent driving:
+
+\[
+t_1=\frac{600}{4.0}=150\text{ s},\qquad
+t_2=\frac{900}{6.0}=150\text{ s}
+\]
+
+Including the stop, total time is \(150+90+150=390\text{ s}\).
+
+Total distance is \(600+900=1500\text{ m}\).
+
+\[
+\text{Average speed}=\frac{1500}{390}=3.84615\ldots
+=\boxed{3.85\text{ m/s}}
+\]
+
+Converting the unrounded value to km/h:
+
+\[
+\frac{1500}{390}\times3.6=13.84615\ldots
+=\boxed{13.85\text{ km/h}}
+\]

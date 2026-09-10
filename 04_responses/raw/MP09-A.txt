@@ -1,0 +1,8 @@
+Using \(\Delta T=Q/(mc)\):
+
+- **A:** \(\Delta T_A=4200/(0.50\times4200)=2.0^\circ\mathrm C\).
+- **B:** \(\Delta T_B=4200/(1.00\times4200)=1.0^\circ\mathrm C\).
+
+A warms more, but this does **not** establish that it ends hotter. The final temperatures are \(T_{A,i}+2.0^\circ\mathrm C\) and \(T_{B,i}+1.0^\circ\mathrm C\).
+
+We need the initial temperatures, or their difference. A ends hotter if its initial temperature is less than \(1.0^\circ\mathrm C\) below B’s (or is equal to or above B’s). If A starts exactly \(1.0^\circ\mathrm C\) cooler, they finish at the same temperature.

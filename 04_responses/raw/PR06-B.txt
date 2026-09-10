@@ -1,0 +1,7 @@
+The only feasible combination is **S1 → T2**:
+
+- Leave Brook at **09:00**; arrive at Junction at **09:20**.
+- Wait **25 minutes**; take T2 at **09:45**.
+- Arrive at the museum at **10:15**, before the 10:30 deadline.
+
+**Recommendation: S1 → T2.** It is the only feasible combination and therefore the one that leaves Brook latest.

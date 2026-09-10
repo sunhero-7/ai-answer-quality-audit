@@ -1,0 +1,13 @@
+The probability that **both counters are blue** is
+
+\[
+\frac{4}{6}\times\frac{3}{5}=\frac{2}{5}=40\%.
+\]
+
+After the first blue counter is drawn, only **3 blue counters remain out of 5 counters**, so the second blue probability is \(3/5\), not \(4/6\).
+
+“At least one is orange” is the opposite of “both are blue”, so its probability is
+
+\[
+1-\frac{2}{5}=\frac{3}{5}=60\%.
+\]

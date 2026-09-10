@@ -1,0 +1,12 @@
+Let the true distances be \(x\) and \(y\). The rounding rule gives
+\[
+9.5\le x<10.5,\qquad 13.5\le y<14.5.
+\]
+Adding and dividing by two:
+\[
+\boxed{11.5\le \frac{x+y}{2}<12.5\text{ m}}.
+\]
+
+The lower endpoint is included: \(x=9.5\) and \(y=13.5\) give a mean of \(11.5\) m. The upper endpoint is excluded because both upper rounding bounds are excluded. Every value between these endpoints is possible.
+
+The true mean is **not necessarily exactly \(12\) m**; \(12\) m is simply the mean of the displayed readings.

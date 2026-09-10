@@ -1,0 +1,11 @@
+No. Three shifts need covering, but two helpers covering at most one shift each can cover only two. Also, only Asha is available for both the first and last shifts.
+
+Repair: allow **Asha** to cover one additional shift, increasing her limit to two shifts.
+
+| Shift | Helper |
+|---|---|
+| 09:00–10:00 | Asha |
+| 10:00–11:00 | Ben |
+| 11:00–12:00 | Asha |
+
+Availability and all other rules remain unchanged.

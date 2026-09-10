@@ -1,0 +1,5 @@
+1. Average acceleration: \(a=\frac{-1.0-(+2.0)}{0.25}=-12\ \text{m/s}^2\), or **12 m/s² west**.
+
+2. Average net force: \(F=ma=0.50(-12)=-6.0\ \text{N}\), or **6.0 N west**.
+
+3. Speeds omit direction. The cart reverses direction, so its velocity change is \(-1.0-(+2.0)=-3.0\ \text{m/s}\). Subtracting the speeds would miss this reversal and give the wrong acceleration.

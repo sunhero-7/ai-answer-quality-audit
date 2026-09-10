@@ -1,0 +1,13 @@
+| Supply | Total needed | Existing stock | Packs to buy | Items left after assembly |
+|---|---:|---:|---:|---:|
+| Pencils | 36 | 9 | 3 | 3 |
+| Blank cards | 54 | 20 | 2 | 16 |
+| Envelopes | 18 | 5 | 2 | 3 |
+
+Round each shortfall **up** to whole packs:
+
+- Pencils: \((36-9)/10=2.7\) → **3 packs**
+- Cards: \((54-20)/25=1.36\) → **2 packs**
+- Envelopes: \((18-5)/8=1.625\) → **2 packs**
+
+Leftovers equal existing stock plus purchased items minus total needed.

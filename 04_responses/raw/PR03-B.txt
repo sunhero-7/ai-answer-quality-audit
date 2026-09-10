@@ -1,0 +1,9 @@
+| Activity | Start | End |
+|---|---|---|
+| Check digital file | 13:00 | 13:15 |
+| Automatic printing | 13:15 | 13:35 |
+| Collect delivery | 13:30 | 13:40 |
+| Trim printed cards | 13:40 | 13:55 |
+| Pack trimmed cards | 13:55 | 14:05 |
+
+Printing overlaps delivery collection without requiring supervision. Spare time from 14:05 to 14:30 remains unassigned.

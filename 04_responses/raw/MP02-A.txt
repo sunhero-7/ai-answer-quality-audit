@@ -1,0 +1,7 @@
+The statement is partly right: the longer ramp requires less pushing force, but the worker does the same mechanical work.
+
+For a trolley of mass \(m\), the required force is \(F=mgh/L\). Doubling the ramp length from 2 m to 4 m halves this force. However, the worker pushes through twice the distance, so the work is unchanged: \(W=FL=mgh\).
+
+At the same speed, the longer ramp also requires half the mechanical power, but takes twice as long.
+
+So “effort” could mean force or power, both of which are lower on the longer ramp. It does not mean less mechanical energy transferred. The trolley–Earth system gains the same gravitational potential energy, while the trolley’s kinetic energy stays constant. The worker’s bodily energy expenditure cannot be determined from this ideal model alone.

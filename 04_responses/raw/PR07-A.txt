@@ -1,0 +1,8 @@
+| Job | Start | End |
+|---|---|---|
+| J2: Repair a label template | 09:00 | 09:15 |
+| J3: Print event labels | 09:15 | 09:25 |
+| J1: Archive old files | 09:25 | 09:45 |
+| J4: Write a handover note | 09:45 | 09:50 |
+
+Immediately after J2 finishes, J3 becomes ready. Its priority number is 1, lower than J1’s 2, so J3 runs next.

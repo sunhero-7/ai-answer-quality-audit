@@ -1,0 +1,9 @@
+The statement is right if “less effort” means a smaller pushing force, but wrong if it means less mechanical energy transferred.
+
+At constant speed, the push balances gravity’s component down the slope: \(F=mg(h/L)\). The 4-metre ramp therefore needs half the force of the 2-metre ramp.
+
+However, the worker pushes through twice the distance. The work done is \(W=FL=mgh\), so both routes transfer the same energy and produce the same gain in gravitational potential energy. The trolley’s kinetic energy stays constant.
+
+At the same speed along each ramp, the longer ramp takes twice as long and requires half the mechanical power.
+
+“Effort” could also mean fatigue or the worker’s bodily energy expenditure. Those depend on human physiology and cannot be determined from this idealised mechanical model.

@@ -1,0 +1,11 @@
+No. There are three shifts but only two helpers, each allowed at most one shift. Also, only Asha is available for both the first and last shifts.
+
+Repair: allow **Asha** to cover one additional shift, keeping availability unchanged.
+
+| Shift | Helper |
+|---|---|
+| 09:00–10:00 | Asha |
+| 10:00–11:00 | Ben |
+| 11:00–12:00 | Asha |
+
+Each shift has exactly one helper for the full hour, and all other rules remain unchanged.

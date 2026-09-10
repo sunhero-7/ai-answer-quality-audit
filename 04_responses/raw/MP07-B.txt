@@ -1,0 +1,32 @@
+The block’s volume is
+\[
+V=6.0\times4.0\times2.5=\boxed{60\ \text{cm}^3}.
+\]
+
+Since \(1\ \text{cm}=0.01\ \text{m}\),
+\[
+1\ \text{cm}^3=(0.01\ \text{m})^3=10^{-6}\ \text{m}^3.
+\]
+The conversion factor is cubed because volume multiplies **three lengths**, each contributing a factor of \(0.01\). Therefore,
+\[
+60\ \text{cm}^3\times\frac{10^{-6}\ \text{m}^3}{1\ \text{cm}^3}
+=\boxed{0.000060\ \text{m}^3}.
+\]
+
+The density is
+\[
+\rho=\frac{180\ \text{g}}{60\ \text{cm}^3}
+=\boxed{3\ \text{g/cm}^3}.
+\]
+
+Converting the mass:
+\[
+180\ \text{g}\times\frac{1\ \text{kg}}{1000\ \text{g}}=0.180\ \text{kg}.
+\]
+Thus,
+\[
+\rho=\frac{0.180\ \text{kg}}{0.000060\ \text{m}^3}
+=\boxed{3000\ \text{kg/m}^3}.
+\]
+
+All results are exact under the exercise’s assumption.

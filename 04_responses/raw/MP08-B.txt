@@ -1,0 +1,11 @@
+After drawing one blue counter, **3 blue counters remain out of 5 counters**, so the probability of a second blue is \(3/5\), not \(4/6\). The first counter is not replaced.
+
+- **Both blue:**
+  \[
+  \frac46\times\frac35=\frac25=\boxed{40\%}.
+  \]
+
+- **At least one orange:** This is the complement of both being blue:
+  \[
+  1-\frac25=\frac35=\boxed{60\%}.
+  \]
