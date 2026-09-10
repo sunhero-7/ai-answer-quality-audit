@@ -1,6 +1,16 @@
 # Collect genuine responses
 
-No candidate responses are included yet. Use an accessible model in a fresh conversation for each generation, after verifying the corresponding reference. Record the actual model and collection method used.
+## Actual AI collection run on 10 September 2026
+
+The current run uses a newly created Codex agent context for every individual candidate (`fork_turns=none`). The exact clean task is the complete candidate request. The collector receives the first completed final answer and saves it without edits; the generating context does not receive the reference, rubric or counterpart response. The collector records the returned context identity, observed launch/capture times where available, actual generation date and file hashes. Exact underlying model identifiers, generation instants and sampling settings are not exposed and are not invented. A failed dispatch produces no candidate; interrupted/failed attempts are logged separately before any retry.
+
+AI reference checks are attributed to `Codex (AI)` and precede candidate dispatch. These do not count as Dominic's verification. The first three captures lack a recorded launch timestamp; their task-only dispatches followed the reference check in the project conversation. Date-only generation records alone cannot prove within-day ordering, so the capture log and this limitation accompany them.
+
+Identical genuine replies are retained. Neither an error nor a perfect answer is a reason to regenerate a completed candidate. This is not a comparison between named models.
+
+## Optional manual collection for a later human-led run
+
+Use an accessible model in a fresh conversation for each generation, after verifying the corresponding reference. Record the actual model and collection method used.
 
 ## Before collecting
 
@@ -49,7 +59,7 @@ Do not paste your intended correction in place of the response. Retain the origi
 
 ## Optional local import
 
-Use Python 3.10 or newer from the project folder. Paths below are relative to this folder. Replace example metadata with what actually happened; the placeholders are not evidence of generation. The current script is scoped to the eight-task pilot; extend and test it for the remaining dataset after pilot decisions are saved.
+Use Python 3.10 or newer from the project folder. Paths below are relative to this folder. Replace example metadata with what actually happened; the placeholders are not evidence of generation. The script supports the eight-task pilot plus the 32 provisional main tasks. Complete the pilot and agree the rubric before collecting the remaining 64 responses; verify each reference before import.
 
 ```bash
 python3 07_scripts/audit.py import-response \
