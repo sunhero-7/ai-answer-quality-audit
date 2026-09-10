@@ -1,0 +1,14 @@
+{
+  "final_rubric_version": "1.0",
+  "decided_by": "Codex (AI)",
+  "decided_at": "2026-09-10T15:56:07+00:00",
+  "decision_rationale": "All16 original pilot reviews were complete and found no correction-required errors. Retain the five 0\u20132 anchors and material-error rule. Clarify AI attribution under the authorised method change, inference framing, word-count scope and retention of genuine identical outputs. These clarifications do not alter any pilot score; the pilot does not establish discrimination across all score levels.",
+  "rubric_path": "01_guidelines/rubric_v1.0.md",
+  "rubric_sha256": "00acaead32ff55b2df7efb40dccc212398ad0ddc011b45fcd1f2b7f61db3d2da",
+  "pilot_snapshots": [
+    {
+      "path": "05_annotations/initial/ai_pilot_2026-09-10",
+      "submitted_sha256": "b5a5ad371ddbf48a0d4b62c2ee8542c8e27332ac0ecbd2da742f1c43deed05b7"
+    }
+  ]
+}
