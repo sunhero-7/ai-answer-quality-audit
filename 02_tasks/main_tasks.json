@@ -1,0 +1,258 @@
+[
+  {
+    "task_id": "MP03",
+    "category": "mathematics_physics",
+    "stage": "main_draft",
+    "task_version": "0.1",
+    "title": "Two percentage changes use different bases",
+    "prompt": "A community hall's monthly electricity use was 250 kWh. In April it fell by 20% compared with that amount. In May it rose by 20% compared with April.\n\nCalculate April's use, May's use, and May's net percentage change relative to the original 250 kWh. Show your working. Then explain in one sentence why the decrease and increase do or do not cancel."
+  },
+  {
+    "task_id": "MP04",
+    "category": "mathematics_physics",
+    "stage": "main_draft",
+    "task_version": "0.1",
+    "title": "A combined mean with one group size missing",
+    "prompt": "In a fictional puzzle trial, Group A contains 12 participants and has an exact mean completion time of 8 minutes. Group B has an exact mean completion time of 11 minutes, but its number of participants is missing; it contains at least one participant. Each participant completed the same puzzle once.\n\nA colleague says, “The mean for everyone must be (8 + 11) / 2 = 9.5 minutes.” Is that justified? Give a formula for the combined mean using n for Group B's size, explain when 9.5 minutes would be correct, and identify the missing information. Stay within 120 words."
+  },
+  {
+    "task_id": "MP05",
+    "category": "mathematics_physics",
+    "stage": "main_draft",
+    "task_version": "0.1",
+    "title": "Signed acceleration and net force",
+    "prompt": "A 0.50 kg toy cart moves in a straight line. Its velocity changes from +2.0 m/s to −1.0 m/s over 0.25 s. East is the positive direction and the cart's mass is constant.\n\nUse average acceleration = (final velocity − initial velocity) / elapsed time and average net force = mass × average acceleration. Answer in exactly three numbered points:\n1. Calculate the average acceleration with units and direction.\n2. Calculate the average net force with units and direction.\n3. Explain why subtracting the speeds 2.0 and 1.0 would be wrong here. Show the essential working within the relevant points."
+  },
+  {
+    "task_id": "MP06",
+    "category": "mathematics_physics",
+    "stage": "main_draft",
+    "task_version": "0.1",
+    "title": "Power is not energy",
+    "prompt": "Two lamps operate steadily at their stated electrical input powers. Lamp A uses 12 W and is on for 5 hours. Lamp B uses 8 W and is on for 8 hours. Ignore standby use. Use energy = power × time, 1 kWh = 1,000 Wh and 1 Wh = 3,600 J.\n\nCalculate each lamp's energy use in Wh and kWh. State which uses more energy and by how much in Wh and joules. Explain briefly why lower power does not necessarily mean lower total energy use. Show your working."
+  },
+  {
+    "task_id": "MP07",
+    "category": "mathematics_physics",
+    "stage": "main_draft",
+    "task_version": "0.1",
+    "title": "Converting a block's density",
+    "prompt": "A uniform rectangular block has mass 180 g and dimensions 6.0 cm × 4.0 cm × 2.5 cm. Treat these measurements as exact for this exercise. Use volume = length × width × height and density = mass / volume. There are 100 cm in 1 m and 1,000 g in 1 kg.\n\nCalculate the block's volume in cm³ and m³, then its density in g/cm³ and kg/m³. Show the unit conversions and explain why converting cm³ to m³ involves cubing the length conversion."
+  },
+  {
+    "task_id": "MP08",
+    "category": "mathematics_physics",
+    "stage": "main_draft",
+    "task_version": "0.1",
+    "title": "Drawing counters without replacement",
+    "prompt": "A bag contains four blue counters and two orange counters. Each individual counter is equally likely to be selected. Two counters are drawn one at a time without replacement.\n\nFind the probability that both are blue and the probability that at least one is orange. Give each as a simplified fraction and a percentage, and show your reasoning. Explain briefly why the second blue probability is not 4/6 after a blue counter has been drawn first."
+  },
+  {
+    "task_id": "MP09",
+    "category": "mathematics_physics",
+    "stage": "main_draft",
+    "task_version": "0.1",
+    "title": "Equal heating without equal starting temperatures",
+    "prompt": "In an ideal exercise, beaker A contains 0.50 kg of water and beaker B contains 1.00 kg of water. Each receives exactly 4,200 J of heat. No heat is lost, the containers absorb no heat, and neither sample changes phase. Use Q = mcΔT with water's specific heat capacity c = 4,200 J/(kg·°C). The initial temperatures are not supplied and need not be equal.\n\nCalculate each temperature rise. Can you conclude that A ends at a higher temperature than B? Explain what further information is needed, using no more than 130 words in total."
+  },
+  {
+    "task_id": "MP10",
+    "category": "mathematics_physics",
+    "stage": "main_draft",
+    "task_version": "0.1",
+    "title": "The mean of rounded distance readings",
+    "prompt": "A handheld display reports each true distance to the nearest whole metre. It rounds halfway values upward: a true value from 9.5 m inclusive to 10.5 m exclusive is displayed as 10 m. Two readings are displayed as 10 m and 14 m. No other information or measurement error is involved.\n\nFind the possible interval for the mean of the two true distances, saying whether each endpoint is included. Is that true mean necessarily exactly 12 m? Show your reasoning and do not assume where within their rounding intervals the true values lie."
+  },
+  {
+    "task_id": "CS03",
+    "category": "customer_support",
+    "stage": "main_draft",
+    "task_version": "0.1",
+    "title": "A delivered parcel that cannot be found",
+    "prompt": "Use only this fictional Fern Paperworks policy:\n\n[P1] When tracking says delivered but a parcel is missing, the customer should first check the designated safe place and ask other members of their household.\n[P2] If it is still missing, support needs the order number and confirmation of the delivery address to open a delivery review.\n[P3] After receiving those details, support provides a review update within two business days. This is an update deadline, not a promise that the review will be resolved then.\n[P4] A replacement or refund can be offered only after the delivery review establishes eligibility. This extract does not promise next-day delivery of replacements.\n\nCustomer message: “Tracking says my notebook parcel was delivered today, but I cannot find it. I have checked the safe place and asked everyone in my household. Please send a replacement to arrive tomorrow.”\n\nWrite a helpful customer-facing reply in no more than 100 words. You have no order details, tracking access or ability to take account actions."
+  },
+  {
+    "task_id": "CS04",
+    "category": "customer_support",
+    "stage": "main_draft",
+    "task_version": "0.1",
+    "title": "A subscription pause requested after the cutoff",
+    "prompt": "Use only this fictional Brush Box Club policy:\n\n[P1] Membership is billed on the first day of each month for that whole month.\n[P2] A pause for a month must be requested by 23:59 on the 25th of the preceding month. Requests received later cannot pause that month.\n[P3] Members may pause one or two consecutive whole months. Billing resumes automatically on the first day of the month following the selected pause.\n[P4] A pause does not refund or partly refund the current month's membership charge.\n[P5] Support must receive the member's confirmation of the selected eligible pause months before applying a pause.\n\nIt is 26 May. Customer message: “Please pause my membership for June and July and refund the unused part of May. If those dates don't work, tell me what happens if I pause July only.” Assume this request is received today.\n\nDraft a customer-facing reply of no more than 120 words. You can explain the policy but cannot modify the membership."
+  },
+  {
+    "task_id": "CS05",
+    "category": "customer_support",
+    "stage": "main_draft",
+    "task_version": "0.1",
+    "title": "A chipped bowl with photos still needed",
+    "prompt": "Use only this fictional Otter Tableware policy:\n\n[P1] Customers must report an item damaged on arrival within seven calendar days after delivery.\n[P2] Support needs the order number, a photo of the damage and a photo of the outer packaging before reviewing a damage claim. The customer should keep both the item and packaging until the review is complete.\n[P3] Once a claim is approved, the customer may choose an item-price refund or a replacement if that item is in stock. For a multi-item order, the refund covers only the damaged item.\n[P4] Support supplies any necessary return instructions and pays any return postage it requires. Customers should not post items back before receiving those instructions.\n\nCustomer message: “My order arrived three days ago. One £12 bowl is chipped; the other two £12 bowls are fine. I still have the box. Can you refund all £36? Shall I send everything back now?”\n\nDraft a customer-facing reply in no more than 120 words. You have no photos, order number, stock information or authority to approve the claim."
+  },
+  {
+    "task_id": "CS06",
+    "category": "customer_support",
+    "stage": "main_draft",
+    "task_version": "0.1",
+    "title": "A cancellation received exactly at the boundary",
+    "prompt": "Use only this fictional Little Lantern Workshops policy:\n\n[P1] For a Saturday 10:00 workshop, a cancellation received by Friday 10:00 inclusive receives a full refund of the workshop fee.\n[P2] Cancellations received after Friday 10:00 receive a 50% refund of the workshop fee. The time of receipt, not the time a staff member reads the message, determines the amount.\n[P3] If the customer explicitly chooses cancellation, support can process the eligible refund after locating the booking using the booking reference. Refunds reach the original payment method within five business days after processing.\n[P4] All times in this policy and in the message details below use the same local time zone. There is no separate booking fee.\n\nMessage received Friday at exactly 10:00: “Please cancel my place at tomorrow's 10:00 workshop. I paid £48. I don't have my booking reference with this message. Does it matter if nobody reads this until the afternoon?”\n\nDraft a customer-facing reply of no more than 100 words. You have no booking access and cannot process the cancellation yourself."
+  },
+  {
+    "task_id": "CS07",
+    "category": "customer_support",
+    "stage": "main_draft",
+    "task_version": "0.1",
+    "title": "A discount code and a threshold gift",
+    "prompt": "Use only this fictional Meadow Stationery policy:\n\n[P1] The code DRAW10 takes 10% off full-price stationery items. It does not apply to gift cards, delivery charges or already-discounted items.\n[P2] A free eraser is included only when the eligible stationery subtotal, after discounts, is at least £30. Gift cards and delivery charges do not count towards this threshold.\n[P3] Standard delivery costs £4 for this order. DRAW10 can be used once on an order and has no minimum spend.\n[P4] Only one promotional code may be applied to an order. Prices below already include any applicable taxes.\n\nCustomer message: “My basket has £30 of full-price stationery and a £10 gift card. I want to use DRAW10, plus another 5%-off code. Including standard delivery, what would I pay using DRAW10 alone, and would I get the free eraser?”\n\nDraft a customer-facing reply in no more than 110 words. Show the main calculation. You cannot place or alter an order."
+  },
+  {
+    "task_id": "CS08",
+    "category": "customer_support",
+    "stage": "main_draft",
+    "task_version": "0.1",
+    "title": "Access to a studio when one measurement is missing",
+    "prompt": "Use only this fictional Elm Makers Studio information:\n\n[P1] The front entrance has three steps. A step-free side entrance is available during staffed hours, 09:00–17:00 Monday–Friday.\n[P2] Visitors who need the side entrance should email support with their visit date and arrival time at least one business day before the visit so staff can arrange access.\n[P3] The studio room is on the ground floor. The accessible toilet's doorway clear width is not stated in this information; support can ask the building team for the measurement.\n[P4] Booking a workshop does not automatically arrange side-entrance access. No access arrangement is confirmed until support replies to confirm it.\n\nCustomer message received Monday at 11:00: “I'm booked for a workshop this Wednesday at 14:00 and plan to arrive at 13:45. I use a wheelchair. Can I get in without steps, and is the toilet doorway at least 85 cm wide?” Assume this week has no public holidays.\n\nWrite a customer-facing reply of no more than 120 words. You have only this information and cannot contact the building team or make access arrangements yourself."
+  },
+  {
+    "task_id": "CS09",
+    "category": "customer_support",
+    "stage": "main_draft",
+    "task_version": "0.1",
+    "title": "An address correction after dispatch",
+    "prompt": "Use only this fictional North Quay Prints policy:\n\n[P1] Support can edit a delivery address only while an order is marked 'processing'. Once it is marked 'dispatched', support cannot edit the address on that shipment.\n[P2] A dispatched parcel's tracking page may offer a carrier-managed redirection request. Available options depend on the carrier and destination; a request does not guarantee redirection.\n[P3] If a parcel is returned to North Quay Prints, support will contact the customer to discuss next steps. This extract gives no automatic refund or free-reshipment promise for an incorrectly supplied address.\n[P4] Customers should not send payment-card details in an address enquiry.\n\nCustomer message: “I put number 16 instead of 61 in the delivery address. My order is already marked dispatched. Please change it now. If the parcel comes back, will you send it out again for free? Should I email my card number?”\n\nDraft a helpful customer-facing reply in no more than 110 words. You cannot inspect the tracking page or change any shipment details."
+  },
+  {
+    "task_id": "CS10",
+    "category": "customer_support",
+    "stage": "main_draft",
+    "task_version": "0.1",
+    "title": "A gift booking with missing age information",
+    "prompt": "Use only this fictional Willow Clay Sessions policy:\n\n[P1] The evening pottery class is for participants aged 16 or over. The family class is for participants aged 8 or over; anyone under 16 in a family class must attend with a paying adult.\n[P2] Gift vouchers may be redeemed against either class, subject to age rules and available places. A voucher does not reserve a seat.\n[P3] Vouchers expire 12 months after issue. A class must take place on or before the printed expiry date; making the booking before expiry is not enough.\n[P4] Support needs the intended participant's age, class date and voucher expiry date before checking a suitable booking. This extract contains no timetable or availability information.\n\nCustomer message: “I have a voucher for my nephew. I'd like to put him in an evening class next month. I can book before the voucher expires, but the class might be after that. Can you confirm a place?” The nephew's age and the two dates are not provided.\n\nDraft a customer-facing reply in no more than 120 words. You cannot check a timetable or reserve a place."
+  },
+  {
+    "task_id": "RC03",
+    "category": "reading_comprehension",
+    "stage": "main_draft",
+    "task_version": "0.1",
+    "title": "The difference between a trial and a permanent decision",
+    "prompt": "Read this original passage:\n\n[S1] In January, the Hill Street repair group proposed opening its workshop every Sunday from April.\n[S2] At the February meeting, two volunteers said they could not commit to a weekly Sunday shift.\n[S3] The group then agreed to run three Sunday sessions in April and review attendance before making a permanent decision.\n[S4] A March newsletter mistakenly described the Sunday opening as permanent.\n[S5] The organiser published a correction the next day, confirming that only the three April sessions had been agreed.\n[S6] At the end of March, no April attendance figures were yet available.\n\nAnswer in three numbered points, using no more than 110 words in total:\n1. State the original proposal and the decision actually agreed.\n2. Explain what the correction changed in the public account.\n3. State whether the passage establishes that the Sunday trial was successful, with a reason."
+  },
+  {
+    "task_id": "RC04",
+    "category": "reading_comprehension",
+    "stage": "main_draft",
+    "task_version": "0.1",
+    "title": "A pronoun that leaves the owner uncertain",
+    "prompt": "Read this original passage:\n\n[S1] Bea and Noor were sorting materials in the community hall.\n[S2] Bea handed Noor a notebook beside the window.\n[S3] She said, “Please leave it on the blue chair; I'll collect it after rehearsal.”\n[S4] Noor then carried the notebook to the blue chair.\n[S5] Later, the caretaker moved the blue chair into the store cupboard, with the notebook still on its seat.\n[S6] The passage gives no later conversation about the notebook.\n\nAnswer in three numbered points, using no more than 100 words in total:\n1. Who moves the notebook to the blue chair?\n2. Does the passage unambiguously identify who says they will collect it? Explain briefly.\n3. Where is the notebook last explicitly located?"
+  },
+  {
+    "task_id": "RC05",
+    "category": "reading_comprehension",
+    "stage": "main_draft",
+    "task_version": "0.1",
+    "title": "Two proposals with a shared aim",
+    "prompt": "Read this original passage:\n\n[S1] The East Bank allotment committee wanted to reduce the amount of water wasted around its communal taps.\n[S2] Farah proposed fitting taps that turn themselves off after a short interval, arguing that this would limit water left running accidentally.\n[S3] Milo preferred repairing the existing taps first, because several had visible drips even when closed.\n[S4] Farah agreed that the dripping taps needed repairs but wanted the committee to price both repairs and automatic shut-off fittings.\n[S5] Milo said he would reconsider the fittings if the repair quote left enough money in the maintenance budget.\n[S6] The committee requested both prices and postponed its purchase decision until the next meeting.\n\nIn no more than 100 words, explain the shared aim, the difference between Farah's and Milo's positions, and the decision made at this meeting. Do not portray either person as opposing all repairs or all new fittings."
+  },
+  {
+    "task_id": "RC06",
+    "category": "reading_comprehension",
+    "stage": "main_draft",
+    "task_version": "0.1",
+    "title": "Reading a response count with the right denominator",
+    "prompt": "Read this original passage:\n\n[S1] A town museum invited all 50 volunteers to complete a questionnaire about its online rota.\n[S2] Twenty volunteers replied, and 15 of those respondents said the rota was easy to use.\n[S3] Of the same 20 respondents, six requested larger text; the questionnaire allowed people to call the rota easy and also request larger text.\n[S4] The museum did not record why the other 30 volunteers did not reply.\n[S5] Staff planned to test a larger-text option with volunteers next month, but had not yet selected participants.\n\nAnswer in three numbered points, using no more than 110 words in total:\n1. What percentage of questionnaire respondents called the rota easy to use? Show the denominator.\n2. Does the passage establish that 75% of all 50 volunteers found it easy? Explain.\n3. Can the six larger-text requests be treated as six additional respondents, separate from the 15 who found it easy? Explain briefly and name the planned next step."
+  },
+  {
+    "task_id": "RC07",
+    "category": "reading_comprehension",
+    "stage": "main_draft",
+    "task_version": "0.1",
+    "title": "Which notice applies on the stated date?",
+    "prompt": "Read this original passage:\n\n[S1] On 4 October, Oak Lane Arts Centre posted a notice saying that its Saturday drawing session on 12 October would begin at 11:00 in Room A.\n[S2] On 7 October, the centre issued a replacement notice: the same session would begin at 12:00 in Room B because Room A needed repairs.\n[S3] The replacement notice said that the date and £6 entry price were unchanged and that people should use its time and room details instead of the earlier notice.\n[S4] On 9 October, a visitor found a printed copy of the first notice in a nearby café.\n[S5] No further change is reported in the passage.\n\nUsing only the passage, write a reply to the visitor in no more than 80 words that gives the applicable date, start time, room and price, and explains why the café notice differs."
+  },
+  {
+    "task_id": "RC08",
+    "category": "reading_comprehension",
+    "stage": "main_draft",
+    "task_version": "0.1",
+    "title": "Compressing instructions without losing an exception",
+    "prompt": "Read this original passage:\n\n[S1] The community seed swap will accept labelled packets at the library desk from Monday to Thursday during normal library opening hours.\n[S2] Each label must give the plant name and the year the seeds were collected.\n[S3] Homemade envelopes are welcome if they close securely; original shop packets are not required.\n[S4] The organisers cannot accept loose seeds, seeds without labels, or packets showing visible mould.\n[S5] Donations are optional: visitors may take part in Saturday's swap even if they have no seeds to bring.\n[S6] The library has not listed its opening hours in this announcement.\n\nWrite a plain-English summary for visitors in no more than 75 words. Include when and where to donate, both label requirements, the packaging rule, the exclusions and whether a donation is needed to attend. Do not invent exact opening times."
+  },
+  {
+    "task_id": "RC09",
+    "category": "reading_comprehension",
+    "stage": "main_draft",
+    "task_version": "0.1",
+    "title": "An object returned without a stated motive",
+    "prompt": "Read this original passage:\n\n[S1] When Leo opened his bakery at dawn, he found a small brass key inside a plain envelope on the doorstep.\n[S2] There was no name on the envelope, only the words “Back where it belongs.”\n[S3] He tried the key in the old flour cupboard, and its lock turned.\n[S4] The cupboard had stood locked since his uncle moved away in June.\n[S5] Leo smiled, then put the empty envelope in a drawer instead of throwing it away.\n[S6] At lunchtime, his neighbour asked whether any post had arrived, and Leo replied, “Just something I had stopped looking for.”\n\nAnswer in three numbered points, using no more than 120 words in total:\n1. Give two explicit facts about the key and what Leo does with it.\n2. Offer one reasonable inference about Leo's reaction, supported by two details.\n3. Identify one important fact the passage does not establish about the envelope's sender."
+  },
+  {
+    "task_id": "RC10",
+    "category": "reading_comprehension",
+    "stage": "main_draft",
+    "task_version": "0.1",
+    "title": "Supported, contradicted and not established",
+    "prompt": "Read this original passage:\n\n[S1] The Brookside walking group planned two routes for its Sunday outing: a 4-kilometre riverside route and a 7-kilometre hill route.\n[S2] Rain on Saturday made the hill path muddy, so the organisers cancelled the hill route but kept the riverside route.\n[S3] They emailed everyone who had registered and posted the change on the group's noticeboard.\n[S4] Fourteen registered walkers attended the riverside outing on Sunday; the passage gives no total registration count.\n[S5] At the end, two walkers suggested offering the hill route later in the month, but the organisers did not announce another date.\n\nFor each claim below, write 'supported', 'contradicted' or 'not established' and give a brief reason tied to the passage. Keep the whole answer within 110 words.\nA. All routes for Sunday were cancelled.\nB. Every registered walker received an email about the change.\nC. Fourteen registered walkers attended on Sunday.\nD. Most registered walkers attended on Sunday.\nE. Another hill-route outing was scheduled for later in the month.\n\nTreat 'emailed' as establishing that messages were sent, without assuming that they were delivered or read. A claim is 'contradicted' only when the passage provides information incompatible with it; missing evidence alone means 'not established'."
+  },
+  {
+    "task_id": "PR03",
+    "category": "practical_reasoning",
+    "stage": "main_draft",
+    "task_version": "0.1",
+    "title": "Preparing exhibit cards around a fixed collection",
+    "prompt": "Plan one person's work from 13:00 to 14:30 using these constraints:\n\n[C1] Check a digital exhibit-card file for 15 continuous minutes before printing begins.\n[C2] Printing then runs automatically for 20 continuous minutes. The printer is available only from 13:15 to 13:55, and the entire print run must fit inside that window. Printing needs no supervision and may overlap another activity.\n[C3] Collect a delivery in person from exactly 13:30 to 13:40.\n[C4] Trim the printed cards for 15 continuous minutes after printing finishes.\n[C5] Pack the trimmed cards for 10 continuous minutes after trimming finishes.\n[C6] The file check, delivery collection, trimming and packing all require the person's full attention and cannot overlap one another. No activity may be split. Boundary adjacency is allowed.\n\nGive one valid schedule with start and end times for all five activities. Leave spare time unassigned; the goal is feasibility, not the earliest finish."
+  },
+  {
+    "task_id": "PR04",
+    "category": "practical_reasoning",
+    "stage": "main_draft",
+    "task_version": "0.1",
+    "title": "A rota that needs one constraint relaxed",
+    "prompt": "A fictional pop-up stall has three one-hour shifts: 09:00–10:00, 10:00–11:00 and 11:00–12:00. Exactly one person must cover each full shift, with no splitting. The only helpers are Asha and Ben. Asha is available for all three shifts; Ben is available only for 10:00–11:00. Each helper may cover at most one shift.\n\nCan all shifts be covered under these rules? Explain briefly. Then give one of these two repairs, with a complete rota: either allow one named helper to cover one additional shift while keeping availability unchanged, or add one new helper who covers exactly one shift. Do not change any other rule. Use no more than 150 words."
+  },
+  {
+    "task_id": "PR05",
+    "category": "practical_reasoning",
+    "stage": "main_draft",
+    "task_version": "0.1",
+    "title": "Packing six display items into two boxes",
+    "prompt": "Six indivisible display items have these masses: A 6 kg, B 5 kg, C 4 kg, D 3 kg, E 2 kg and F 2 kg. Use exactly two boxes. Each box may contain at most three items and at most 12 kg of items; ignore the box's own mass. Put every item in exactly one box. Items A and B must be in different boxes, and items E and F must stay together.\n\nGive one valid packing, listing the items and total item mass in each box. Briefly show that all constraints are satisfied. Do not split items or add boxes."
+  },
+  {
+    "task_id": "PR06",
+    "category": "practical_reasoning",
+    "stage": "main_draft",
+    "task_version": "0.1",
+    "title": "A connection with a strict arrival deadline",
+    "prompt": "Use only this fictional same-day timetable. All times use the same local clock. A shuttle goes from Brook to Junction, and a train then goes from Junction to the museum. The traveller starts at Brook no earlier than 09:00 and must arrive at the museum by 10:30 inclusive. A connection is allowed only when the train departs at least 12 minutes after the shuttle arrives. No walking or other services are available.\n\nShuttles:\n[S1] Brook 09:00 → Junction 09:20.\n[S2] Brook 09:15 → Junction 09:35.\n[S3] Brook 09:30 → Junction 09:50.\n\nTrains:\n[T1] Junction 09:30 → museum 10:00.\n[T2] Junction 09:45 → museum 10:15.\n[T3] Junction 10:05 → museum 10:35.\n\nList every feasible shuttle–train combination. Then recommend the combination that leaves Brook latest among the feasible ones. Show the transfer waiting time for each listed combination."
+  },
+  {
+    "task_id": "PR07",
+    "category": "practical_reasoning",
+    "stage": "main_draft",
+    "task_version": "0.1",
+    "title": "Applying a queue rule after each job",
+    "prompt": "One operator must complete four jobs, without interruption or overlap, starting at 09:00. No new jobs arrive. The jobs are:\n\n[J1] Archive old files: 20 minutes; ready at 09:00; priority 2.\n[J2] Repair a label template: 15 minutes; ready at 09:00; priority 1.\n[J3] Print event labels: 10 minutes; becomes ready only when J2 finishes; priority 1.\n[J4] Write a handover note: 5 minutes; becomes ready only when both J1 and J3 finish; priority 1.\n\nAt each time the operator is free, start a ready unfinished job immediately. Among ready jobs, choose the lowest priority number; break any tie by the lowest job number. A running job must finish before another begins.\n\nGive the resulting schedule with all start and end times in chronological order. Briefly explain the choice made immediately after J2 finishes."
+  },
+  {
+    "task_id": "PR08",
+    "category": "practical_reasoning",
+    "stage": "main_draft",
+    "task_version": "0.1",
+    "title": "A portable-screen choice with an unknown requirement",
+    "prompt": "A volunteer team needs one portable screen for a workshop. It must cost at most £100, weigh at most 5 kg, include a stand and have a matte surface. The only available options are listed below. A question mark means the supplier has not provided that information; it does not mean yes or no.\n\n[A] Arden: £90; 4.5 kg; stand included; matte surface yes.\n[B] Bracken: £75; 4.0 kg; stand included; matte surface ?.\n[C] Clover: £85; 5.5 kg; stand included; matte surface yes.\n[D] Dune: £95; 4.0 kg; no stand included; matte surface yes.\n\nThe organiser says, “Choose the cheapest screen that meets every requirement.” Identify the cheapest option confirmed to qualify, the option that might change that choice after a check, and exactly what needs checking. Recommend a next step without claiming to have contacted a supplier or purchased anything. Keep your response within 130 words."
+  },
+  {
+    "task_id": "PR09",
+    "category": "practical_reasoning",
+    "stage": "main_draft",
+    "task_version": "0.1",
+    "title": "Buying whole packs for workshop kits",
+    "prompt": "Prepare exactly 18 identical workshop kits. Each kit needs two pencils, three blank cards and one envelope. Existing stock contains 9 pencils, 20 blank cards and 5 envelopes. New supplies are sold only in whole packs: pencils in packs of 10, cards in packs of 25 and envelopes in packs of 8. Assume all stock is usable.\n\nBuy the smallest possible number of packs of each supply that allows all 18 kits to be assembled. Give a table with one row per supply and these columns: total needed, existing stock, packs to buy, items left after assembly. Show or explain how you rounded the shortfall to whole packs. Do not substitute items between kits."
+  },
+  {
+    "task_id": "PR10",
+    "category": "practical_reasoning",
+    "stage": "main_draft",
+    "task_version": "0.1",
+    "title": "Finding a call slot across fixed clock offsets",
+    "prompt": "Three teammates need one continuous 30-minute call on the same date. For this exercise, the clock offsets below are fixed and there are no daylight-saving changes. A call must fit entirely inside every person's availability; it may start or finish exactly at a boundary.\n\n[M1] Maya's local clock is UTC+0. She is available 09:00–10:00 local.\n[M2] Luis's local clock is UTC−3. He is available 06:30–07:15 local.\n[M3] Sana's local clock is UTC+2. She is available 11:45–12:30 local.\n\nFirst decide whether a 30-minute call is possible with the original availability, showing the shared interval in UTC. If it is impossible, only Maya may extend the end of her availability, by at most 15 minutes. Find the smallest extension that makes the call possible and give the resulting call time in UTC and on all three local clocks. Do not change anyone's starting time."
+  }
+]
