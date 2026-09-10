@@ -1,8 +1,10 @@
-# Make your own first decisions
+# Review the annotations and preserve later judgments
 
-This folder contains blank templates. A preassigned ID, round or rubric version does not mean a response exists or a review has occurred.
+**Current AI run:** the completed AI records belong in `ai_evaluation.csv` and `ai_evaluation.xlsx`, with reviewer `Codex (AI)`. The original blank files described below are preserved for a later human exercise. If you have seen AI ratings or corrections, disclose that exposure; a later review of those answers is not a blind independent first annotation. See the method-change record and final rubric.
 
-Use the four-response batches after collection. First read the task and the verified reference. Then assess one response at a time, giving 0–2 for each dimension. Write your reason and any necessary corrected answer before asking AI for advice. You can submit your answers here, in the workbook, or in CSV.
+This folder contains completed AI evaluations alongside the original blank human templates. A preassigned ID, round or rubric version in a template does not mean a human review has occurred.
+
+For a later owner review, inspect a small batch at a time against the task and AI-checked reference. Use the final rubric v1.0, record your own reasoning and disclose prior exposure to AI judgments. Save a new dated review file; do not overwrite the completed AI file or relabel the old blank v0.1 template as a submitted review. For a genuinely unassisted first exercise, use fresh responses whose proposed ratings you have not seen.
 
 ## Copyable submission form
 
@@ -24,14 +26,14 @@ Rationale:
 Corrected answer, if required:
 Reviewer:
 Review date and time, with timezone:
-Rubric version: 0.1
+Rubric version: 1.0
 ```
 
 Your rationale should identify the claim, omission or instruction at issue, point to the calculation or evidence, and explain how it supports your ratings. For an entirely satisfactory response, state what you checked; “looks good” is not enough. Do not change scores to achieve a desired total.
 
 If a verified key appears wrong, flag it. Verification does not make the key infallible. Pause affected judgments, state the uncertainty, and save any still-valid scores. A response that correctly asks for necessary missing information can be fully satisfactory; an ambiguous task does not automatically make its response poor.
 
-## Workbook and CSV
+## Preserved original human workbook and CSV
 
 `pilot_annotation_template.xlsx` has two sheets:
 
@@ -48,6 +50,6 @@ The initial master template uses planned task/slot IDs. Actual blind batches use
 
 After a submission, copy it unchanged into `initial/` with the actual submission date and batch ID. The working copy may continue to grow, but the submitted original is never overwritten. AI feedback goes in `06_quality/ai_coaching.csv` only after the corresponding submission. Coaching is advice; any changed decision must be made and explained by Dominic.
 
-After all pilot first decisions are saved, agree on revisions to the guidelines. Save `rubric_v0.2.md` if another draft is needed, then `rubric_v1.0.md` when ready. Reapply v1.0 to the 16 pilot responses and use it for the remaining 64. Keep final rows in `revised/` with a link to the initial record and log both changed and unchanged judgments. Do not overwrite the v0.1 labels or retroactively relabel them as v1.0.
+For the completed AI run, v1.0 was adopted after the 16 original pilot decisions were frozen. It was then applied to all 80 responses; the pilot scores were unchanged. The decision record and revision log explain the clarifications. The initial pilot snapshot is in `initial/ai_pilot_2026-09-10/`, and the final baseline is in `revised/ai_baseline_2026-09-10/`. These are AI decisions, not a human-agreed rubric or human submission. Preserve these originals when adding any later owner review.
 
 The later blind recheck is a separate round with fresh IDs and earlier labels hidden. It is not the same operation as bringing the pilot onto the final rubric.
