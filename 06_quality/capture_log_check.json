@@ -1,0 +1,25 @@
+{
+  "captured_responses": 80,
+  "provenance_records": 80,
+  "distinct_recorded_contexts": 80,
+  "verification_before_observed_launch": 77,
+  "launch_timestamp_unrecorded": [
+    "MP01-A",
+    "MP01-B",
+    "MP02-A"
+  ],
+  "identical_reply_groups": [
+    [
+      "PR01-A",
+      "PR01-B"
+    ]
+  ],
+  "errors": [],
+  "pass": true,
+  "limits": [
+    "Collector-observed timestamps and identifiers are not independent vendor attestation.",
+    "A task-only request does not reveal or verify the hidden system prompt or exact model configuration.",
+    "Missing launch times are reported as unknown, never reconstructed as precise timestamps.",
+    "Genuine identical responses remain separate observations; no output is regenerated to create diversity."
+  ]
+}

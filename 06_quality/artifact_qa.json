@@ -1,0 +1,55 @@
+{
+  "checked_at": "2026-09-10T16:46:23+00:00",
+  "checked_by": "Codex (AI)",
+  "source_csv_sha256": "0d665ce4b23bb6cadace2e4f411d22e92b187544c1ed94d36b2d6543ca423e3d",
+  "assessment_rows": 80,
+  "all_score_values_and_totals_match_csv": true,
+  "all_rationales_and_corrections_match_csv": true,
+  "raw_reply_urls_match_provenance": true,
+  "dimension_means_match_ai_metrics_json": true,
+  "workbook_sheets": [
+    "Summary",
+    "Scores",
+    "Review text",
+    "Candidates"
+  ],
+  "filterable_data_tables": 3,
+  "frozen_rows": 6,
+  "frozen_identifier_columns": 2,
+  "score_and_decision_validation_present": true,
+  "zero_and_blank_formula_checks_passed": true,
+  "formula_error_scan_matches": 0,
+  "document_pdf_pages": 2,
+  "visual_review": "All two final document pages and representative views of all four workbook sheets inspected; no observed clipping, overlap or missing content. Long candidate rows were checked separately.",
+  "presentation_notes": [
+    "Candidate display cells omit blank lines for readability; raw response files remain unchanged.",
+    "Raw reply URLs are provided as text because the authoring renderer does not implement the HYPERLINK function.",
+    "Workbook displays rubric 1.0 as v1.0 to preserve its version meaning.",
+    "Recalculation verified in the bundled authoring engine; native desktop Excel was not opened.",
+    "The PDF is the rendered copy of the editable DOCX, produced with bundled LibreOffice.",
+    "Human owner review and the delayed human recheck remain unperformed; this QA concerns artifacts and record integrity."
+  ],
+  "artifacts": [
+    {
+      "path": "05_annotations/ai_evaluation.xlsx",
+      "bytes": 66190,
+      "sha256": "24a4354c81e5f5564bb8ad65bd13a0d1e42bb7435918065dec1b57c999dd9274"
+    },
+    {
+      "path": "08_portfolio/AI_AUDIT_REPORT.docx",
+      "bytes": 39521,
+      "sha256": "91d3b28ab4a298acaf6c27f03bf6f1b8e2485772dff2a67291cfd0bdd7bcb89a"
+    },
+    {
+      "path": "08_portfolio/AI_AUDIT_REPORT.pdf",
+      "bytes": 89287,
+      "sha256": "1e3de7f2236cb4f2182e2a730fa1b453ac8b66059ec9a79507a5e912b268a7f9"
+    },
+    {
+      "path": "08_portfolio/AI_AUDIT_REPORT.md",
+      "bytes": 4442,
+      "sha256": "13513c9446e638fc4ad9b2fa37a23e2814302234611c6be18fa82ecb8e5eaf25"
+    }
+  ],
+  "pass": true
+}

@@ -1,0 +1,10 @@
+Prepared tasks: 40; reference records: 40/40
+Reference decisions recorded as verified: 40/40
+Responses recorded: 80/80; missing: 0
+Annotation rows: 80; complete: 80; needs clarification: 0; in progress: 0; pending: 0
+Provenance is collector-recorded. Hashes check saved bytes, not vendor authorship or answer quality.
+DATE-ONLY CAVEAT: 80 generation records lack a time/timezone; exact order relative to reference verification and import cannot be established from those dates.
+Structural validation: PASS. This does not mean the project is complete.
+Preserved 80 submitted rows in 05_annotations/revised/ai_baseline_2026-09-10; no original overwritten.
+Final baseline structurally valid: 80/80 complete, rubric 1.0.
+The delayed independent recheck, change explanations, report and walkthrough remain separate completion requirements.

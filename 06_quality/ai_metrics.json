@@ -1,0 +1,62 @@
+{
+  "generated_at": "2026-09-10T16:37:22+00:00",
+  "project_status": "in_progress",
+  "prepared_tasks": 40,
+  "planned_responses": 80,
+  "verified_references": 40,
+  "collected_responses": 80,
+  "annotation_status_counts": {
+    "complete": 80
+  },
+  "metrics": {
+    "complete_valid_responses": 80,
+    "score_dimensions": {
+      "accuracy": {
+        "observations": 80,
+        "mean": 2.0
+      },
+      "instruction_following": {
+        "observations": 80,
+        "mean": 2.0
+      },
+      "relevance": {
+        "observations": 80,
+        "mean": 2.0
+      },
+      "completeness": {
+        "observations": 80,
+        "mean": 2.0
+      },
+      "clarity": {
+        "observations": 80,
+        "mean": 2.0
+      }
+    },
+    "material_error_rate": {
+      "numerator": 0,
+      "denominator": 80,
+      "fraction": 0.0
+    },
+    "correction_required_rate": {
+      "numerator": 0,
+      "denominator": 80,
+      "fraction": 0.0
+    },
+    "primary_error_counts": {
+      "none": 80
+    }
+  },
+  "reviewer_complete_counts": {
+    "Codex (AI)": 80
+  },
+  "ai_complete_reviews": 80,
+  "human_complete_reviews": 0,
+  "collection_source_counts": {
+    "ai_recorded": 80
+  },
+  "limitations": [
+    "Collection provenance is collector-recorded, not independently authenticated.",
+    "This status command does not certify project completion or human authorship.",
+    "Metrics include only complete valid rows; blanks and unresolved rows are excluded."
+  ]
+}

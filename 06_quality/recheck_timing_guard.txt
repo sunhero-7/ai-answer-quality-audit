@@ -1,0 +1,2 @@
+Expected rejection when attempting same-day selection; no recheck packet or ratings created.
+ERROR: Wait at least 24 hours after the first review before selecting a recheck
