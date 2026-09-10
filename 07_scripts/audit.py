@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Portable, standard-library checks and collection support for the eight-task pilot.
+"""Portable, standard-library checks and collection support for the pilot and full forty-task audit.
 
 This program does not generate answers, rate responses, verify a reference's
 substance, or establish vendor authorship. Provenance is collector-recorded;
@@ -13,7 +13,7 @@ Examples (run from the project folder):
       --generated-at 2026-09-09 --source "Web chat" --session-id "chat-unique-1"
   python3 07_scripts/audit.py blind-batch --task-ids MP01,CS01 --output batch01
 
-Before importing, Dominic must verify the matching reference version in
+Before importing, a named reviewer must verify the matching reference version in
 03_references/reference_verification.csv. The actual prompt must match the
 task's prompt exactly, including whitespace. Use a fresh chat for each reply.
 Blind exports preserve exact response bytes in separate text files. Their
@@ -138,8 +138,17 @@ def read_utf8_bytes(path: Path) -> bytes:
 
 
 def load_preparation(root: Path) -> tuple[dict, dict, dict, list[str], int]:
-    tasks = read_json_array(root / "02_tasks/pilot_tasks.json")
+    pilot_tasks = read_json_array(root / "02_tasks/pilot_tasks.json")
+    tasks = list(pilot_tasks)
     refs = read_json_array(root / "03_references/pilot_references.json")
+    main_path = root / "02_tasks/main_tasks.json"
+    main_ref_path = root / "03_references/main_references.json"
+    if main_path.exists() != main_ref_path.exists():
+        raise AuditError("main_tasks.json and main_references.json must be provided together")
+    main_tasks = read_json_array(main_path) if main_path.exists() else []
+    tasks.extend(main_tasks)
+    if main_path.exists():
+        refs.extend(read_json_array(main_ref_path))
     verification = read_csv(root / "03_references/reference_verification.csv", VERIFICATION_FIELDS)
     errors: list[str] = []
     task_by_id: dict[str, dict] = {}
@@ -154,11 +163,16 @@ def load_preparation(root: Path) -> tuple[dict, dict, dict, list[str], int]:
         for field in ["category", "stage", "task_version", "title", "prompt"]:
             if not isinstance(row.get(field), str) or not row[field].strip():
                 errors.append(f"{task_id}: missing text field {field}")
-        if row.get("stage") != "pilot":
-            errors.append(f"{task_id}: stage must be pilot in pilot_tasks.json")
-    counts = Counter(row.get("category") for row in tasks if isinstance(row.get("category"), str))
-    if len(tasks) != 8 or len(task_by_id) != 8 or set(counts) != CATEGORIES or set(counts.values()) != {2}:
+        expected_stage = "pilot" if row in pilot_tasks else "main_draft"
+        if row.get("stage") != expected_stage:
+            errors.append(f"{task_id}: stage must be {expected_stage} in its source file")
+    counts = Counter(row.get("category") for row in pilot_tasks if isinstance(row.get("category"), str))
+    if len(pilot_tasks) != 8 or len({row.get("task_id") for row in pilot_tasks}) != 8 or set(counts) != CATEGORIES or set(counts.values()) != {2}:
         errors.append(f"Pilot must have 8 unique tasks and exactly 2 in each of 4 categories ({', '.join(sorted(CATEGORIES))}); got {dict(counts)}")
+    if main_path.exists():
+        counts = Counter(row.get("category") for row in tasks if isinstance(row.get("category"), str))
+        if len(tasks) != 40 or len(task_by_id) != 40 or set(counts) != CATEGORIES or set(counts.values()) != {10}:
+            errors.append(f"Full audit must have 40 unique tasks and exactly 10 in each of 4 categories; got {dict(counts)}")
 
     ref_by_id: dict[str, dict] = {}
     for row in refs:
@@ -177,7 +191,7 @@ def load_preparation(root: Path) -> tuple[dict, dict, dict, list[str], int]:
             if not isinstance(values, list) or not values or any(not isinstance(value, str) or not value.strip() for value in values):
                 errors.append(f"{task_id}: reference {field} must be a nonempty array of nonempty strings")
     if set(task_by_id) != set(ref_by_id):
-        errors.append("Reference task IDs do not exactly match pilot task IDs")
+        errors.append("Reference task IDs do not exactly match prepared task IDs")
 
     verification_by_id: dict[str, dict] = {}
     verified = 0
@@ -212,7 +226,7 @@ def load_preparation(root: Path) -> tuple[dict, dict, dict, list[str], int]:
         elif any(row[field].strip() for field in ["reviewer", "verified_at"]):
             errors.append(f"{task_id}: recorded review details need a reference decision")
     if set(verification_by_id) != set(task_by_id):
-        errors.append("Reference verification must have exactly one row for each pilot task")
+        errors.append("Reference verification must have exactly one row for each prepared task")
     return task_by_id, ref_by_id, verification_by_id, errors, verified
 
 
@@ -265,10 +279,10 @@ def validate_provenance(root: Path, tasks: dict, verification: dict, rows: list[
             except ValueError:
                 # The corresponding timestamp problem is reported elsewhere.
                 pass
-        if row["source_status"] != "user_recorded":
-            errors.append(f"{response_id}: source_status must be user_recorded")
-        if row["collector"] != "Dominic Da Silva":
-            errors.append(f"{response_id}: unexpected collector; this pilot uses Dominic Da Silva")
+        if row["source_status"] not in {"user_recorded", "ai_recorded"}:
+            errors.append(f"{response_id}: source_status must be user_recorded or ai_recorded")
+        if row["collector"] == "Codex (AI)" and row["source_status"] != "ai_recorded":
+            errors.append(f"{response_id}: AI collection must be identified as ai_recorded")
         raw_path, prompt_path = expected_paths(response_id)
         for field, expected in [("raw_path", raw_path), ("actual_prompt_path", prompt_path)]:
             if row[field] != expected:
@@ -406,7 +420,11 @@ def map_blind_annotations(rows: list[dict], mapping_path: Path) -> tuple[list[di
     submitted_ids = {row["response_id"] for row in rows}
     if submitted_ids != set(mapping):
         raise AuditError(f"Blind annotation IDs must exactly match the selected mapping; missing {len(set(mapping) - submitted_ids)}, unexpected {len(submitted_ids - set(mapping))}")
-    mapped_rows = [dict(row, response_id=mapping[row["response_id"]]) for row in rows]
+    for row in rows:
+        expected_task = mapping[row["response_id"]].rsplit("-", 1)[0]
+        if row["task_id"] and row["task_id"] != expected_task:
+            raise AuditError(f"{row['response_id']}: submitted task_id conflicts with blind mapping")
+    mapped_rows = [dict(row, response_id=mapping[row["response_id"]], task_id=mapping[row["response_id"]].rsplit("-", 1)[0]) for row in rows]
     return mapped_rows, set(mapping.values())
 
 
@@ -422,6 +440,8 @@ def validate_command(args: argparse.Namespace) -> int:
     if mapping_path is None and args.annotations and (path.parent / "private_map.json").is_file():
         mapping_path = path.parent / "private_map.json"
     expected_responses = None
+    if args.annotations is None and len(tasks) == 40 and len(annotations) == 16:
+        expected_responses = {f"{task_id}-{slot}" for task_id, task in tasks.items() if task["stage"] == "pilot" for slot in "AB"}
     if mapping_path:
         annotations, expected_responses = map_blind_annotations(annotations, mapping_path)
     annotation_problems, counts = validate_annotations(annotations, tasks, recorded, expected_responses)
@@ -431,14 +451,14 @@ def validate_command(args: argparse.Namespace) -> int:
     if args.require_collected and missing:
         errors.append(f"Collection required: {missing} of {expected} planned responses are missing")
     if args.require_collected and verified != len(tasks):
-        errors.append(f"Collection required: {len(tasks) - verified} references await valid human verification")
-    print(f"Pilot tasks: {len(tasks)}/8; reference records: {len(refs)}/{len(tasks)}")
+        errors.append(f"Collection required: {len(tasks) - verified} references await valid verification")
+    print(f"Prepared tasks: {len(tasks)}; reference records: {len(refs)}/{len(tasks)}")
     print(f"Reference decisions recorded as verified: {verified}/{len(tasks)}")
     print(f"Responses recorded: {len(recorded)}/{expected}; missing: {missing}")
     print(f"Annotation rows: {len(annotations)}; complete: {counts['complete']}; needs clarification: {counts['needs_clarification']}; in progress: {counts['in_progress']}; pending: {counts['pending']}")
     if mapping_path:
         print(f"Blind batch: checked {len(expected_responses)} mapped responses in memory; submitted CSV unchanged.")
-    print("Provenance is user-recorded. Hashes check saved bytes, not vendor authorship or answer quality.")
+    print("Provenance is collector-recorded. Hashes check saved bytes, not vendor authorship or answer quality.")
     date_only = sum(row["date_precision"] == "date" for row in provenance)
     if date_only:
         print(f"DATE-ONLY CAVEAT: {date_only} generation records lack a time/timezone; exact order relative to reference verification and import cannot be established from those dates.")
@@ -461,8 +481,8 @@ def import_command(args: argparse.Namespace) -> int:
     if args.task_id not in tasks:
         raise AuditError(f"Unknown task_id {args.task_id}")
     if verification[args.task_id]["decision"] != "verified":
-        raise AuditError(f"{args.task_id}: Dominic must verify this reference version before collection/import")
-    for field in ["model", "generated_at", "source", "session_id", "settings"]:
+        raise AuditError(f"{args.task_id}: a named reviewer must verify this reference version before collection/import")
+    for field in ["model", "generated_at", "source", "session_id", "settings", "collector"]:
         if not getattr(args, field).strip():
             raise AuditError(f"--{field.replace('_', '-')} must not be blank")
     try:
@@ -498,7 +518,7 @@ def import_command(args: argparse.Namespace) -> int:
         "task_version": task["task_version"], "model": args.model,
         "generated_at": args.generated_at, "date_precision": precision,
         "source": args.source, "session_id": args.session_id, "settings": args.settings,
-        "collector": "Dominic Da Silva", "source_status": "user_recorded",
+        "collector": args.collector, "source_status": "ai_recorded" if args.collector == "Codex (AI)" else "user_recorded",
         "imported_at": imported_at.isoformat(timespec="seconds").replace("+00:00", "Z"),
         "prompt_sha256": digest(prompt), "reply_sha256": digest(reply),
         "raw_path": raw_path, "actual_prompt_path": prompt_path,
@@ -535,7 +555,7 @@ def import_command(args: argparse.Namespace) -> int:
             temporary.unlink(missing_ok=True)
         lock.unlink(missing_ok=True)
     print(f"Imported {response_id}; reply and actual prompt preserved byte for byte.")
-    print(f"Generation date precision: {precision}. Provenance is user-recorded, not independently authenticated.")
+    print(f"Generation date precision: {precision}. Provenance is collector-recorded, not independently authenticated.")
     if precision == "date":
         print("DATE-ONLY CAVEAT: exact generation order relative to reference verification and import cannot be established from the recorded date.")
     return 0
@@ -601,7 +621,7 @@ def blind_command(args: argparse.Namespace) -> int:
                 (temporary / "responses" / f"{neutral}.txt").write_bytes(data)
                 packet.append(f"### Candidate {neutral}\n\n" + fenced(data.decode("utf-8")) + "\n")
                 row = dict.fromkeys(ANNOTATION_FIELDS, "")
-                row.update(response_id=neutral, task_id=task_id, round="pilot_initial", rubric_version="0.1")
+                row.update(response_id=neutral, task_id=task_id, round=args.round, rubric_version=args.rubric_version)
                 rows.append(row)
         (temporary / "review_packet.md").write_text("".join(packet), encoding="utf-8")
         (temporary / "annotations.csv").write_text(csv_text(rows, ANNOTATION_FIELDS), encoding="utf-8", newline="")
@@ -625,7 +645,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1], help="Project folder (default: parent of 07_scripts)")
     commands = parser.add_subparsers(dest="command", required=True)
     validate = commands.add_parser("validate", help="Check preparation, provenance and annotation structure")
-    validate.add_argument("--require-collected", action="store_true", help="Fail unless all 16 pilot replies are recorded and references verified")
+    validate.add_argument("--require-collected", action="store_true", help="Fail unless all prepared replies are recorded and references verified")
     validate.add_argument("--annotations", type=Path, help="Override annotation CSV; a sibling private_map.json enables blind batch validation")
     validate.add_argument("--mapping", type=Path, help="Explicit private blind-ID mapping; rows are mapped only in memory")
     validate.set_defaults(handler=validate_command)
@@ -639,10 +659,13 @@ def build_parser() -> argparse.ArgumentParser:
     collect.add_argument("--source", required=True, help="Actual platform or collection source")
     collect.add_argument("--session-id", required=True, help="Unique ID for this fresh generation/chat; never reuse")
     collect.add_argument("--settings", default="unknown", help="Record known settings, otherwise unknown")
+    collect.add_argument("--collector", default="Dominic Da Silva", help="Actual collector; use Codex (AI) for AI collection")
     collect.set_defaults(handler=import_command)
     blind = commands.add_parser("blind-batch", help="Export a small batch with randomly assigned response IDs")
     blind.add_argument("--task-ids", required=True)
     blind.add_argument("--output", type=Path, required=True)
+    blind.add_argument("--round", default="pilot_initial")
+    blind.add_argument("--rubric-version", default="0.1")
     blind.set_defaults(handler=blind_command)
     return parser
 
