@@ -1,0 +1,667 @@
+[
+  {
+    "task_id": "MP03",
+    "reference_version": "0.1",
+    "verification_status": "ai_checked_owner_review_pending",
+    "expected_answer": "April: 250 × 0.80 = 200 kWh. May: 200 × 1.20 = 240 kWh. Relative to the original value, (240 − 250) / 250 × 100 = −4%, a 4% decrease. The changes do not cancel because the 20% increase is applied to the smaller April amount.",
+    "checklist": [
+      "Calculate 200 kWh for April and 240 kWh for May, with units.",
+      "Use the original 250 kWh as the denominator for the net change; report −4% or a 4% decrease.",
+      "Show working for both changes and the net percentage.",
+      "In one explanatory sentence, distinguish the bases of the two percentage changes.",
+      "Do not describe the net change as zero or as a 4-percentage-point change in electricity use."
+    ],
+    "evidence": [
+      "Original amount is 250 kWh; April's multiplier is 1 − 0.20 = 0.80; May's multiplier is 1 + 0.20 = 1.20.",
+      "Combined multiplier: 0.80 × 1.20 = 0.96; the result is 96% of the original.",
+      "Equivalent arithmetic: April saves 50 kWh, May adds 40 kWh, leaving a 10 kWh reduction; 10/250 = 0.04."
+    ],
+    "ambiguity_notes": "No intended ambiguity. Accept a signed net change or a clearly described decrease. Equivalent fraction, decimal or percentage working is acceptable; wording need not match the example."
+  },
+  {
+    "task_id": "MP04",
+    "reference_version": "0.1",
+    "verification_status": "ai_checked_owner_review_pending",
+    "expected_answer": "The claim is not justified without the group sizes. Group A's total time is 12 × 8 = 96 minutes and Group B's is 11n, so the combined mean is (96 + 11n) / (12 + n) minutes. It equals 9.5 minutes when n = 12, meaning the two groups have equal numbers of participants. The missing information is Group B's participant count; averaging the two means equally otherwise gives each group equal weight rather than each person.",
+    "checklist": [
+      "Say that the combined mean cannot be fixed at 9.5 minutes from the supplied information.",
+      "Give (96 + 11n)/(12 + n) minutes, or an algebraically equivalent weighted-mean formula.",
+      "Explain that 9.5 minutes is correct if Group B also contains 12 participants.",
+      "Identify Group B's participant count as missing.",
+      "Keep the reply within 120 words and do not invent a group size."
+    ],
+    "evidence": [
+      "Group A has 12 participants with mean 8, hence total completion time 96 minutes.",
+      "A mean of 11 for n participants implies total time 11n minutes.",
+      "Solve 96 + 11n = 9.5(12 + n): 1.5n = 18, giving n = 12.",
+      "Counterexample: if n = 4, combined mean is (96 + 44)/16 = 8.75 minutes, demonstrating that 9.5 is not forced."
+    ],
+    "ambiguity_notes": "Deliberately missing denominator. A range or counterexample can strengthen the explanation but is not required. Accept any equivalent notation that defines n as the positive integer size of Group B; do not penalise omission of an optional numerical counterexample."
+  },
+  {
+    "task_id": "MP05",
+    "reference_version": "0.1",
+    "verification_status": "ai_checked_owner_review_pending",
+    "expected_answer": "1. Average acceleration = (−1.0 − 2.0)/0.25 = −12 m/s², or 12 m/s² west.\n2. Average net force = 0.50 × (−12) = −6.0 N, or 6.0 N west.\n3. Velocity includes direction: the cart reverses direction, so its velocity change is −3.0 m/s. Subtracting the unsigned speeds would ignore the reversal.",
+    "checklist": [
+      "Use a velocity change of −3.0 m/s, not a speed difference of −1.0 m/s.",
+      "Calculate average acceleration as −12 m/s² and identify west as its direction.",
+      "Calculate average net force as −6.0 N and identify west as its direction.",
+      "Explain that velocity carries a sign/direction whereas speed does not.",
+      "Use exactly three numbered points with the requested content and essential working.",
+      "Do not claim that the instantaneous acceleration or force was constant; only the averages are determined."
+    ],
+    "evidence": [
+      "The prompt defines east as positive, initial velocity +2.0 m/s and final velocity −1.0 m/s.",
+      "Velocity difference: −1.0 − (+2.0) = −3.0 m/s; division by 0.25 s gives −12 m/s².",
+      "For constant mass, the supplied average-force formula gives 0.50 kg × (−12 m/s²) = −6 N.",
+      "A negative acceleration or force points west under the stated coordinate convention."
+    ],
+    "ambiguity_notes": "No intended numerical ambiguity. Accept either signed values followed by the direction or positive magnitudes explicitly described as westward. Numerical precision such as −12.0 and −6 is acceptable. The information does not determine distance travelled or the time at which the cart reversed."
+  },
+  {
+    "task_id": "MP06",
+    "reference_version": "0.1",
+    "verification_status": "ai_checked_owner_review_pending",
+    "expected_answer": "Lamp A uses 12 × 5 = 60 Wh = 0.060 kWh. Lamp B uses 8 × 8 = 64 Wh = 0.064 kWh. Lamp B uses 64 − 60 = 4 Wh more, equal to 4 × 3,600 = 14,400 J. Lower power means less energy per unit time, but Lamp B runs long enough to use more energy overall.",
+    "checklist": [
+      "Calculate A as 60 Wh = 0.060 kWh and B as 64 Wh = 0.064 kWh.",
+      "Identify Lamp B as the higher-energy user and calculate the 4 Wh difference.",
+      "Convert the difference to 14,400 J using the supplied conversion.",
+      "Distinguish power from energy and account for operating time.",
+      "Show working and preserve correct units; W, Wh and kWh are not interchangeable."
+    ],
+    "evidence": [
+      "Energy A: 12 W × 5 h = 60 Wh; energy B: 8 W × 8 h = 64 Wh.",
+      "Divide Wh by 1,000 to obtain kWh: 60/1,000 = 0.060 and 64/1,000 = 0.064.",
+      "Energy difference: 4 Wh × 3,600 J/Wh = 14,400 J.",
+      "All conversion factors and operating assumptions are supplied in the prompt."
+    ],
+    "ambiguity_notes": "No intended ambiguity. Accept equivalent units alongside the requested ones, such as 14.4 kJ in addition to 14,400 J. Trailing zeros are optional. No conclusion about brightness or efficiency is supported or required."
+  },
+  {
+    "task_id": "MP07",
+    "reference_version": "0.1",
+    "verification_status": "ai_checked_owner_review_pending",
+    "expected_answer": "Volume = 6.0 × 4.0 × 2.5 = 60 cm³. Since 1 cm = 0.01 m, 1 cm³ = (0.01)³ m³ = 0.000001 m³, so 60 cm³ = 0.000060 m³. Mass = 180/1,000 = 0.180 kg. Density = 180/60 = 3 g/cm³, or 0.180/0.000060 = 3,000 kg/m³. Volume multiplies three lengths, so the 0.01 conversion factor applies three times.",
+    "checklist": [
+      "Calculate the block's volume as 60 cm³.",
+      "Convert the volume to 0.000060 m³ or 6 × 10⁻⁵ m³.",
+      "Calculate density as 3 g/cm³ and 3,000 kg/m³.",
+      "Show the mass conversion or an equivalent explicit density-unit conversion.",
+      "Explain that three length dimensions each contribute a factor of 0.01, giving (0.01)³ for volume.",
+      "Do not convert cm³ by dividing by only 100 or 10,000."
+    ],
+    "evidence": [
+      "Volume multiplication: 6 × 4 × 2.5 = 60 cm³.",
+      "Direct SI check: 0.06 m × 0.04 m × 0.025 m = 0.000060 m³.",
+      "Mass: 180 g = 0.180 kg; SI density: 0.180/(6 × 10⁻⁵) = 3,000 kg/m³.",
+      "Equivalent density conversion: 1 g/cm³ = 0.001 kg/(10⁻⁶ m³) = 1,000 kg/m³."
+    ],
+    "ambiguity_notes": "No intended ambiguity or measurement-uncertainty issue, because the prompt treats the dimensions as exact. Scientific notation and ordinary decimal notation are both acceptable. Do not demand a particular count of significant figures."
+  },
+  {
+    "task_id": "MP08",
+    "reference_version": "0.1",
+    "verification_status": "ai_checked_owner_review_pending",
+    "expected_answer": "The probability of two blue counters is (4/6) × (3/5) = 12/30 = 2/5 = 40%. The complementary event is at least one orange, so its probability is 1 − 2/5 = 3/5 = 60%. After a first blue counter is removed, three blue counters remain among five total counters, giving 3/5 for the next blue draw.",
+    "checklist": [
+      "Account for drawing without replacement: conditional second-blue probability is 3/5 after a first blue.",
+      "Calculate both blue as 2/5 = 40%.",
+      "Calculate at least one orange as 3/5 = 60%, by complement or equivalent counting.",
+      "Give both requested formats and show reasoning.",
+      "Explain why keeping 4/6 for the second draw would use the wrong remaining contents."
+    ],
+    "evidence": [
+      "Initial counts are four blue and two orange, total six.",
+      "After a blue draw there are three blue and two orange, total five.",
+      "Independent counting check: there are 6 choose 2 = 15 unordered pairs, of which 4 choose 2 = 6 are both blue; 6/15 = 2/5.",
+      "At least one orange includes one or two orange counters and is the complement of both blue; its count is 15 − 6 = 9, giving 9/15 = 3/5."
+    ],
+    "ambiguity_notes": "No intended ambiguity. Accept a sequential probability tree, unordered-pair counting or a clear complement calculation. The two draws are not independent; an answer must not assert independence to justify multiplying conditional probabilities."
+  },
+  {
+    "task_id": "MP09",
+    "reference_version": "0.1",
+    "verification_status": "ai_checked_owner_review_pending",
+    "expected_answer": "For A, ΔT = 4,200/(0.50 × 4,200) = 2 °C. For B, ΔT = 4,200/(1.00 × 4,200) = 1 °C. A has the larger rise, but it need not finish hotter because the initial temperatures may differ. The final temperatures are T_A,initial + 2 °C and T_B,initial + 1 °C. Their initial temperatures, or at least their initial difference, are needed to compare them. If both start at the same temperature, A finishes 1 °C hotter.",
+    "checklist": [
+      "Use ΔT = Q/(mc) and calculate A's rise as 2 °C and B's as 1 °C.",
+      "Distinguish a larger temperature rise from a higher final temperature.",
+      "Say that the final ordering cannot be determined without the initial temperatures or their difference.",
+      "Avoid silently assuming equal initial temperatures; any conclusion based on equal starts must be explicitly conditional.",
+      "Keep the reply within 130 words and include the essential calculation."
+    ],
+    "evidence": [
+      "Both samples receive the same 4,200 J and have the same supplied specific heat capacity.",
+      "A: 4,200/(0.50 × 4,200) = 2; B: 4,200/(1.00 × 4,200) = 1.",
+      "Final temperature difference is (T_A,initial − T_B,initial) + 1 °C.",
+      "Counterexample: if A starts at 20 °C and B at 25 °C, their final temperatures are 22 °C and 26 °C, so A is still cooler."
+    ],
+    "ambiguity_notes": "Deliberate missing starting conditions. Accept either the initial-temperature explanation or an equivalent difference-based condition. A counterexample is optional. Temperature rises can also be expressed in kelvins, but a reply should make their equivalence to the requested Celsius changes clear; no absolute Celsius-to-kelvin conversion is required."
+  },
+  {
+    "task_id": "MP10",
+    "reference_version": "0.1",
+    "verification_status": "ai_checked_owner_review_pending",
+    "expected_answer": "The first true distance lies in [9.5, 10.5) m, and the second in [13.5, 14.5) m. Their sum therefore lies in [23, 25) m, so their mean lies in [11.5, 12.5) m. The lower endpoint 11.5 m is included and the upper endpoint 12.5 m is excluded. The true mean can equal 12 m, but it is not necessarily exactly 12 m; 12 m is only the mean of the displayed readings.",
+    "checklist": [
+      "Use true-value intervals 9.5 ≤ x < 10.5 and 13.5 ≤ y < 14.5 metres.",
+      "Combine both bounds and divide by two to obtain 11.5 ≤ mean < 12.5 metres.",
+      "Explicitly include the lower endpoint and exclude the upper endpoint.",
+      "Explain that the true mean is not necessarily exactly 12 m.",
+      "Do not impose an unsupported probability distribution or claim 12 m is the most likely true mean."
+    ],
+    "evidence": [
+      "The prompt gives the half-up rule and illustrates the interval for a displayed 10 m.",
+      "Applying the same rule to 14 m gives [13.5, 14.5) m.",
+      "Minimum mean: (9.5 + 13.5)/2 = 11.5 m, attained by the included lower endpoints.",
+      "Upper bound: (10.5 + 14.5)/2 = 12.5 m, unattainable because both upper endpoints are excluded.",
+      "Every mean inside the stated interval is possible: choose true readings 10 + d and 14 + d with −0.5 ≤ d < 0.5; their mean is 12 + d."
+    ],
+    "ambiguity_notes": "The supplied rounding convention removes the usual ambiguity at halfway values. Accept interval notation or a clear verbal description, provided endpoint inclusion is explicit. A single counterexample disproves exactness but does not replace the requested full interval."
+  },
+  {
+    "task_id": "CS03",
+    "reference_version": "0.1",
+    "verification_status": "ai_checked_owner_review_pending",
+    "expected_answer": "I'm sorry the parcel is missing. As you have already checked the safe place and your household, please provide your order number and confirm the delivery address so support can open a delivery review. You should receive an update within two business days after those details are received; that does not guarantee resolution within that time. Replacement or refund eligibility depends on the review. I cannot confirm a replacement or promise arrival tomorrow from this policy alone.",
+    "checklist": [
+      "Acknowledge the missing parcel and recognise that both preliminary checks are already complete.",
+      "Ask for the order number and confirmation of the delivery address so support can open a review.",
+      "Distinguish the two-business-day update deadline, starting after receipt of details, from guaranteed resolution.",
+      "Explain that replacement/refund eligibility depends on the review and that next-day replacement arrival cannot be promised.",
+      "Keep the reply within 100 words; do not claim a review or replacement has already been arranged."
+    ],
+    "evidence": [
+      "[P1] gives the preliminary checks; the customer expressly reports completing both.",
+      "[P2] gives the information required before opening a review.",
+      "[P3] limits the two-business-day commitment to an update after the required details arrive.",
+      "[P4] makes either remedy conditional on established eligibility and provides no next-day replacement promise."
+    ],
+    "ambiguity_notes": "The parcel's actual location and eligibility for a remedy are unknown. The response can explain the process without asserting loss, theft, delivery failure or an already-completed action."
+  },
+  {
+    "task_id": "CS04",
+    "reference_version": "0.1",
+    "verification_status": "ai_checked_owner_review_pending",
+    "expected_answer": "The deadline to pause June was 23:59 on 25 May, so today's request is too late for June. July can still be requested by 23:59 on 25 June. If you confirm a July-only pause, July would be paused and billing would resume automatically on 1 August. June would remain billable. A pause cannot refund any unused part of May. Please confirm whether you want July only so support can apply the eligible pause. No membership change has been made here.",
+    "checklist": [
+      "Identify that the request misses the June cutoff of 23:59 on 25 May.",
+      "Explain that July remains eligible, with a request deadline of 23:59 on 25 June.",
+      "For the requested July-only alternative, state that July is paused and billing resumes on 1 August; June remains billable.",
+      "Decline the partial May refund under the supplied pause policy.",
+      "Seek confirmation of July only before support applies it; do not imply that the conditional alternative has already been selected or applied.",
+      "Use a customer-facing reply of no more than 120 words without inventing exceptions or a third paused month."
+    ],
+    "evidence": [
+      "[P2] places June's cutoff on 25 May and July's on 25 June; receipt is 26 May.",
+      "[P1] makes each bill cover the whole named month.",
+      "[P3] permits a single-month pause and resumes billing on the following month's first day.",
+      "[P4] excludes both full and partial refunds of the current month through a pause.",
+      "[P5] requires confirmation before applying the eligible alternative."
+    ],
+    "ambiguity_notes": "The customer asks what a July-only pause would do, rather than unconditionally confirming it. Exact calendar weekdays and payment amounts are unnecessary. The reference concerns only the supplied fictional pause policy."
+  },
+  {
+    "task_id": "CS05",
+    "reference_version": "0.1",
+    "verification_status": "ai_checked_owner_review_pending",
+    "expected_answer": "I'm sorry one bowl arrived chipped. Your report is within the seven-day window. Please provide the order number, a photo of the chip and a photo of the outer packaging, and keep the damaged bowl and packaging while support reviews the claim. If approved, you can choose a £12 refund for the damaged bowl or a replacement if it is in stock; this policy does not cover refunding the two undamaged bowls. Please do not send anything back yet. Support will provide any necessary return instructions and pay any return postage it requires.",
+    "checklist": [
+      "Recognise that the report at three days is within the seven-calendar-day window.",
+      "Request the order number and both required photos, and advise keeping the damaged item and packaging pending review.",
+      "Make approval conditional; give £12, not £36, as the damaged-item refund if approved.",
+      "Mention the alternative of replacement subject to stock without claiming availability.",
+      "Advise against posting anything back yet; support supplies required instructions and pays return postage it requires.",
+      "Keep within 120 words and do not claim approval, refund or shipment has occurred."
+    ],
+    "evidence": [
+      "[P1] gives seven calendar days; the delivery was three days ago.",
+      "[P2] specifies the order number, damage photo, packaging photo and retention of item and packaging.",
+      "[P3] restricts a multi-item refund to the damaged item and makes replacement stock-dependent after approval.",
+      "Customer quantities give one damaged bowl at £12 and two unaffected bowls; only £12 is covered by this damage policy.",
+      "[P4] governs whether and how a return occurs and who pays required return postage."
+    ],
+    "ambiguity_notes": "No ambiguity is intended about the damage-policy amount. Other possible policies for undamaged items are not supplied and must not be invented. Eligibility is not the same as completed approval."
+  },
+  {
+    "task_id": "CS06",
+    "reference_version": "0.1",
+    "verification_status": "ai_checked_owner_review_pending",
+    "expected_answer": "Your message was received exactly at Friday 10:00, which is included in the full-refund window, so the eligible refund is £48. It does not matter if staff read it that afternoon: receipt time determines the amount. Please provide your booking reference so support can locate and cancel the booking and process the refund. The refund should reach your original payment method within five business days after processing. I cannot confirm that those actions have been completed here.",
+    "checklist": [
+      "Apply the inclusive boundary correctly: receipt at exactly Friday 10:00 qualifies for the full £48 refund.",
+      "State that staff reading the message later does not change the amount because receipt time controls.",
+      "Ask for the booking reference so support can locate the booking and process the requested cancellation/refund.",
+      "Anchor the five-business-day payment timescale to processing, not message receipt or the workshop date, and identify the original payment method.",
+      "Keep the customer-facing reply within 100 words and avoid claiming completed actions."
+    ],
+    "evidence": [
+      "[P1] explicitly includes Friday 10:00 in the full-refund window.",
+      "[P2] applies 50% only after that boundary and distinguishes receipt from reading time.",
+      "[P3] gives the information dependency, refund method and timescale after processing.",
+      "[P4] removes a time-zone conversion or separate-fee issue; £48 is the full supplied workshop fee."
+    ],
+    "ambiguity_notes": "The boundary is deliberately exact but unambiguous because [P1] says inclusive. Do not import assumptions about a generic 24-hour policy or infer a processing date."
+  },
+  {
+    "task_id": "CS07",
+    "reference_version": "0.1",
+    "verification_status": "ai_checked_owner_review_pending",
+    "expected_answer": "DRAW10 saves 10% of £30, which is £3, making the stationery subtotal £27. The £10 gift card and £4 delivery charge are not discounted, so your total using DRAW10 alone would be £27 + £10 + £4 = £41. You would not qualify for the free eraser: the eligible subtotal after discount is £27, below £30. Gift cards and delivery do not count towards that threshold. Only one promotional code is allowed, so DRAW10 cannot be combined with the additional 5%-off code.",
+    "checklist": [
+      "Apply the 10% reduction only to the £30 eligible full-price stationery, giving a £3 saving and £27 subtotal.",
+      "Include the unchanged £10 gift card and £4 standard delivery for a £41 total using DRAW10 alone.",
+      "Explain that the free eraser does not qualify because its after-discount eligible subtotal is £27, below £30.",
+      "Explain that the other promotional code cannot be combined with DRAW10.",
+      "Show the main calculation and stay within 110 words; do not claim an order has been placed or altered."
+    ],
+    "evidence": [
+      "[P1] defines eligible items and excludes gift cards and delivery from the percentage discount.",
+      "[P2] sets an inclusive £30 threshold on the eligible subtotal after discounts and excludes gift cards/delivery.",
+      "[P3] supplies £4 delivery and permits the single use of DRAW10 without a minimum spend.",
+      "[P4] forbids stacking promotional codes and removes additional tax calculations.",
+      "Arithmetic: £30 × 0.10 = £3; £30 − £3 = £27; £27 + £10 + £4 = £41; £27 < £30."
+    ],
+    "ambiguity_notes": "The other code's detailed terms are not supplied and need not be evaluated, because combining codes is prohibited and the customer specifically asks for the total using DRAW10 alone."
+  },
+  {
+    "task_id": "CS08",
+    "reference_version": "0.1",
+    "verification_status": "ai_checked_owner_review_pending",
+    "expected_answer": "The side entrance offers step-free access during weekday staffed hours, so your planned Wednesday 13:45 arrival falls within that window. Please email support with your visit date and 13:45 arrival time; Monday is early enough to meet the one-business-day notice requirement. Your workshop booking does not itself arrange access, so wait for support's confirmation. The studio room is on the ground floor. The toilet doorway's clear width is not supplied, so I cannot confirm it is at least 85 cm. Ask support to obtain that measurement from the building team before your visit.",
+    "checklist": [
+      "Identify the side entrance as the supplied step-free route and recognise that Wednesday 13:45 is within staffed hours.",
+      "Explain how to request access with date/time and that Monday gives enough notice for Wednesday in the stated no-holiday week.",
+      "State that workshop booking is not access confirmation; support must confirm the arrangement.",
+      "Treat the toilet doorway width as unknown and recommend asking support to obtain the actual measurement.",
+      "Keep within 120 words without asserting all facilities meet the customer's needs or claiming an arrangement/check has been completed."
+    ],
+    "evidence": [
+      "[P1] supplies the entrance options and weekday 09:00–17:00 staffed window; 13:45 is inside it.",
+      "[P2] requires date/time and at least one business day's notice; Tuesday lies between Monday and Wednesday and there are no public holidays.",
+      "[P3] gives ground-floor location but explicitly omits the clear-width measurement and names the building team as the source.",
+      "[P4] separates workshop booking from confirmed side-entrance access."
+    ],
+    "ambiguity_notes": "The label 'accessible toilet' does not establish a particular clear width or every individual's access requirements. The missing measurement should be acknowledged without inventing it or asserting that access has been arranged."
+  },
+  {
+    "task_id": "CS09",
+    "reference_version": "0.1",
+    "verification_status": "ai_checked_owner_review_pending",
+    "expected_answer": "I'm sorry, but support cannot edit the shipment address once the order is marked dispatched. Please check your tracking page for a carrier-managed redirection option; it may be available, but requesting it does not guarantee redirection. If the parcel is returned to North Quay Prints, support will contact you to discuss next steps. This policy does not promise free reshipment or an automatic refund for an incorrectly supplied address. Please do not email your payment-card details. I cannot confirm an address change or redirection here.",
+    "checklist": [
+      "Recognise that the dispatched status prevents support from editing this shipment's address.",
+      "Suggest checking the tracking page for an optional carrier redirection request without claiming the option is present or will succeed.",
+      "Explain that support discusses next steps if a parcel returns and that free reshipment is not promised by this extract.",
+      "Clearly advise against emailing payment-card details.",
+      "Keep within 110 words; do not invent a redirection link, fee, guaranteed refund or already-completed action."
+    ],
+    "evidence": [
+      "[P1] limits support edits to processing orders; the customer reports dispatched status.",
+      "[P2] leaves both availability and success of carrier redirection uncertain.",
+      "[P3] requires future contact if the parcel returns but supplies no automatic remedy for a wrong address.",
+      "[P4] expressly rules out sending payment-card details in this enquiry."
+    ],
+    "ambiguity_notes": "The policy's lack of a free-reshipment promise does not establish that free reshipment is impossible or that a particular charge will apply. A bounded answer should preserve this distinction."
+  },
+  {
+    "task_id": "CS10",
+    "reference_version": "0.1",
+    "verification_status": "ai_checked_owner_review_pending",
+    "expected_answer": "Please provide your nephew's age, the intended class date and the voucher's printed expiry date so support can check a suitable booking. Evening classes require participants to be at least 16. The class itself must take place on or before the voucher expires; booking before expiry is not sufficient. The voucher does not reserve a seat, and places still need checking. If he is 8–15, a family class may be suitable with a paying adult, subject to dates and availability. I cannot confirm a place from the information supplied.",
+    "checklist": [
+      "Ask for the age, intended class date and voucher expiry date needed for a suitability check.",
+      "State the evening-class minimum age of 16 without assuming the nephew's age from the relationship.",
+      "Explain that the class must occur on or before expiry; an earlier booking date alone does not satisfy the rule.",
+      "Distinguish a voucher from a reserved place and leave timetable/availability unconfirmed.",
+      "If suggesting a family-class alternative, apply its minimum age of 8 and the paying-adult requirement for under-16s accurately; this optional alternative is not mandatory.",
+      "Keep within 120 words and do not promise an extension, booking or seat."
+    ],
+    "evidence": [
+      "[P1] defines the age rules and accompanying-adult condition.",
+      "[P2] makes redemption dependent on rules and availability and says a voucher does not reserve a seat.",
+      "[P3] sets the class-date requirement inclusively at the printed expiry date.",
+      "[P4] identifies the missing facts and explicitly says timetable/availability data are absent."
+    ],
+    "ambiguity_notes": "Age, class date, expiry date and availability are genuinely missing. The task cannot establish eligibility or confirm a place; a targeted request for these details is appropriate. Do not infer a child's age from 'nephew'."
+  },
+  {
+    "task_id": "RC03",
+    "reference_version": "0.1",
+    "verification_status": "ai_checked_owner_review_pending",
+    "expected_answer": "1. The January proposal was weekly Sunday opening from April. The group instead agreed to three April Sunday sessions, followed by an attendance review before any permanent decision.\n2. The correction withdrew the newsletter's mistaken description of permanent Sunday opening and confirmed the three-session agreement.\n3. Success is not established: by the end of March, the April trial had not supplied any attendance figures, and no trial results are reported.",
+    "checklist": [
+      "Distinguish the original recurring-opening proposal from the agreed three-session trial and later review.",
+      "Explain that the correction fixes the newsletter's claim; it is not a new cancellation of an already-agreed permanent schedule.",
+      "State that trial success is not established and link this to the absence of reported trial results/April attendance at the stated time.",
+      "Use three numbered points within 110 words, preserving the January–March sequence.",
+      "Do not assert a permanent schedule, failed trial, attendance amount or later decision that the passage does not supply."
+    ],
+    "evidence": [
+      "[S1] gives the January proposal; [S2] gives the February volunteer concern.",
+      "[S3] states the actual three-session agreement and conditional later permanent decision.",
+      "[S4] explicitly calls the newsletter description a mistake; [S5] identifies the correction's content.",
+      "[S6] establishes that April attendance figures were unavailable at the end of March."
+    ],
+    "ambiguity_notes": "The passage describes planning and a correction, not outcomes. Mentioning volunteer availability as context is acceptable, but do not claim the volunteers cancelled all Sunday sessions."
+  },
+  {
+    "task_id": "RC04",
+    "reference_version": "0.1",
+    "verification_status": "ai_checked_owner_review_pending",
+    "expected_answer": "1. Noor carries the notebook to the blue chair.\n2. No. “She” in S3 could refer to Bea or Noor, so the passage does not unambiguously identify the promised collector.\n3. It is last explicitly on the blue chair's seat after the caretaker moves the chair into the store cupboard.",
+    "checklist": [
+      "Identify Noor as the person explicitly carrying the notebook to the chair.",
+      "Recognise that S3 does not unambiguously resolve 'She' between Bea and Noor; distinguish an interpretation from a certain identity.",
+      "Give the final explicit location as on the chair's seat in the store cupboard, not merely beside the window or at the chair's earlier location.",
+      "Use three numbered points within 100 words without inventing later collection or ownership."
+    ],
+    "evidence": [
+      "[S2] names both Bea and Noor before the ambiguous pronoun in [S3].",
+      "[S3] does not attach a name to the speaker; the future collection promise therefore inherits that unresolved identity.",
+      "[S4] directly names Noor as moving the notebook to the chair.",
+      "[S5] places the chair and notebook in the store cupboard; [S6] provides no later account."
+    ],
+    "ambiguity_notes": "Pronoun reference is deliberately underspecified. Readers may find Bea the more natural antecedent, but the wording does not make that reading certain. The action in S4 and final location in S5 remain explicit despite the speaker ambiguity."
+  },
+  {
+    "task_id": "RC05",
+    "reference_version": "0.1",
+    "verification_status": "ai_checked_owner_review_pending",
+    "expected_answer": "Both want to reduce wasted water. Farah favours pricing automatic shut-off fittings to address taps left running, while also agreeing that drips need repairs. Milo prefers repairing the existing taps first, but is willing to reconsider fittings if money remains. The committee requested prices for both options and postponed purchasing until the next meeting; it did not select or install either option.",
+    "checklist": [
+      "Identify reduced water waste as the shared aim.",
+      "Distinguish accidental running from closed-tap drips as the stated reasons supporting the proposals.",
+      "Preserve Farah's agreement with repairs and Milo's conditional openness to fittings.",
+      "State the actual decision: obtain both prices and postpone purchasing until the next meeting.",
+      "Stay within 100 words without claiming a purchase, installation, price or absolute opposition."
+    ],
+    "evidence": [
+      "[S1] states the committee's shared aim.",
+      "[S2] connects Farah's fittings proposal to accidental running; [S3] connects Milo's priority to visible drips.",
+      "[S4] explicitly records Farah's agreement with repairs and wish to price both options.",
+      "[S5] makes Milo's openness conditional on the remaining budget.",
+      "[S6] reports quotes requested and the purchase decision postponed."
+    ],
+    "ambiguity_notes": "The passage supports a difference of priority and timing, not complete opposition. It gives no cost comparison or measured effectiveness, so the response should not decide which intervention is objectively better."
+  },
+  {
+    "task_id": "RC06",
+    "reference_version": "0.1",
+    "verification_status": "ai_checked_owner_review_pending",
+    "expected_answer": "1. 15 out of 20 respondents: 15 ÷ 20 × 100 = 75%.\n2. No. Only 20 of the 50 volunteers replied; the views of the 30 non-respondents are unknown.\n3. No. Both answers came from the same 20 respondents and could overlap, so the six cannot be added as a separate group. Staff planned to test a larger-text option next month; participants had not yet been selected.",
+    "checklist": [
+      "Calculate 75% using 20 respondents as the denominator, with sufficient working to identify 15/20.",
+      "Reject a supported claim about 75% of all 50 volunteers because the non-respondents' views are not established.",
+      "Recognise possible overlap between the easy-to-use and larger-text responses from the same 20 people; do not add 15 and 6 as disjoint groups.",
+      "Describe the larger-text test as planned for next month, with participants not yet chosen.",
+      "Use three numbered points within 110 words; avoid inventing why volunteers did not reply or the exact overlap."
+    ],
+    "evidence": [
+      "[S1] gives the invited population of 50; [S2] gives 20 respondents and 15 positive usability answers.",
+      "Arithmetic: 15/20 × 100 = 75%; this is a respondent-level proportion, not a measured population percentage.",
+      "[S3] places both answers among the same 20 respondents and explicitly permits overlap.",
+      "[S4] leaves the non-response reason unknown; it does not supply non-respondents' usability views.",
+      "[S5] gives the future test and the unselected-participant status."
+    ],
+    "ambiguity_notes": "The exact intersection of the two answer groups is not supplied. At least one person must belong to both because 15 + 6 exceeds 20, but calculating that lower bound is optional; it must not be mistaken for an exact overlap of one."
+  },
+  {
+    "task_id": "RC07",
+    "reference_version": "0.1",
+    "verification_status": "ai_checked_owner_review_pending",
+    "expected_answer": "The applicable details are 12 October at 12:00 in Room B, with entry costing £6. The café has a copy of the earlier 4 October notice. The centre's 7 October replacement moved the time and room because Room A needed repairs, and explicitly superseded those earlier details. The date and price stayed unchanged.",
+    "checklist": [
+      "Provide all four applicable details: 12 October, 12:00, Room B and £6.",
+      "Explain that the café copy is the earlier notice and that the 7 October notice replaces its time/room details.",
+      "Preserve the unchanged date and price; connect the change to Room A repairs if explaining its reason.",
+      "Use no more than 80 words and do not imply that finding an old copy on 9 October makes it a newer centre announcement."
+    ],
+    "evidence": [
+      "[S1] dates the old notice and gives its 11:00/Room A details for 12 October.",
+      "[S2] dates the replacement and gives 12:00/Room B plus the repair reason.",
+      "[S3] explicitly preserves 12 October and £6 and supersedes the earlier time/room details.",
+      "[S4] concerns when a copy was found, not a new publication; [S5] reports no later change."
+    ],
+    "ambiguity_notes": "The year is intentionally unnecessary: the passage itself names 12 October as Saturday. Do not use the current year to contradict the fictional schedule or import real-world arts-centre information."
+  },
+  {
+    "task_id": "RC08",
+    "reference_version": "0.1",
+    "verification_status": "ai_checked_owner_review_pending",
+    "expected_answer": "Donate labelled seed packets at the library desk Monday–Thursday during normal opening hours; exact hours are not given. Labels must name the plant and collection year. Securely closed homemade envelopes are welcome; shop packets are unnecessary. Loose or unlabelled seeds and packets with visible mould cannot be accepted. You can attend Saturday's swap without donating seeds.",
+    "checklist": [
+      "Give the library desk and Monday–Thursday donation window, without inventing exact opening hours.",
+      "Include both plant name and collection year on labels.",
+      "State that securely closing homemade envelopes are acceptable and original shop packets are not required.",
+      "Preserve the exclusions for loose/unlabelled seeds and visible mould.",
+      "Explain that attendance at Saturday's swap does not require donating.",
+      "Keep the summary within 75 words in plain language without conflating weekday donation intake with Saturday attendance."
+    ],
+    "evidence": [
+      "[S1] supplies donation days, location and reference to normal hours; [S6] says exact hours are absent.",
+      "[S2] gives the two required label fields.",
+      "[S3] permits securely closing homemade envelopes and removes an original-packaging requirement.",
+      "[S4] lists the acceptance exclusions.",
+      "[S5] makes donations optional for Saturday participation."
+    ],
+    "ambiguity_notes": "The announcement does not supply exact hours or say donations can be dropped off on Saturday. Accept concise equivalents such as 'plant name and collection year'; do not replace collection year with purchase year or an invented expiry date."
+  },
+  {
+    "task_id": "RC09",
+    "reference_version": "0.1",
+    "verification_status": "ai_checked_owner_review_pending",
+    "expected_answer": "1. Leo finds a brass key inside an envelope on the doorstep. He tries it in the old flour cupboard, and the lock turns.\n2. He may be pleased and attach personal significance to its return: he smiles and keeps the envelope rather than discarding it.\n3. The passage does not establish who left the envelope.",
+    "checklist": [
+      "Give two actual facts, including the found key and/or its use in the cupboard lock, without substituting an inferred sender or motive.",
+      "Offer a qualified, reasonable reaction inference supported by two distinct textual details.",
+      "Name one unresolved fact about the sender, such as identity, motive, relationship to Leo or how the sender obtained the key.",
+      "Use three numbered points within 120 words; accept reasonable alternative inferences and evidence combinations.",
+      "Do not assert that the uncle or neighbour sent the key, that Leo knows the sender, or that the envelope contains a full explanatory letter."
+    ],
+    "evidence": [
+      "[S1] explicitly gives the brass key, envelope and doorstep location.",
+      "[S2] gives the only envelope wording and no name; it does not identify the sender.",
+      "[S3] explicitly describes trying the key and turning the cupboard lock.",
+      "[S4] supplies a link to the uncle's departure, but it does not establish authorship of the delivery.",
+      "[S5] gives smiling and keeping the envelope as two supports for a positive or personally significant reaction.",
+      "[S6] may support renewed interest in a previously sought object, but the neighbour's question alone does not prove involvement."
+    ],
+    "ambiguity_notes": "Emotional significance is inferred, not directly stated. Other careful inferences, such as relief at recovering access, can be supported by smiling plus the long-locked cupboard or Leo's remark. Merely labelling the reaction 'pleased' without qualification may overstate the text; Dominic should judge nuanced wording against the final rubric."
+  },
+  {
+    "task_id": "RC10",
+    "reference_version": "0.1",
+    "verification_status": "ai_checked_owner_review_pending",
+    "expected_answer": "A. Contradicted: S2 keeps the riverside route despite cancelling the hill route.\nB. Not established: S3 says everyone was emailed, but does not establish delivery to every recipient.\nC. Supported: S4 reports fourteen registered attendees on Sunday.\nD. Not established: S4 gives no total registration count, so the proportion attending is unknown.\nE. Not established: S5 reports a suggestion and no announced date; that does not establish a scheduled outing or prove that none existed privately.",
+    "checklist": [
+      "Classify A as contradicted because the riverside route remained and took place.",
+      "Classify B as not established, distinguishing sending messages from confirmed receipt under the prompt's express convention.",
+      "Classify C as supported by the explicit attendance count.",
+      "Classify D as not established because the registration denominator is absent.",
+      "Classify E as not established under the supplied definition: a suggestion and lack of announcement do not establish scheduling, nor directly rule out an unannounced schedule.",
+      "Give brief evidence-linked reasons for all five claims within 110 words; do not invent a registration count, email delivery/read status or future date."
+    ],
+    "evidence": [
+      "[S2] explicitly retains the riverside route; [S4] reports that the Sunday outing had fourteen registered attendees.",
+      "[S3] describes sending email to everyone registered; the task explicitly forbids treating sending as proof of delivery or reading.",
+      "[S4] states the attendance count while explicitly withholding total registrations.",
+      "[S5] records two walkers' suggestion and no organisers' announcement; the task defines missing support as not established rather than automatically contradicted."
+    ],
+    "ambiguity_notes": "The prompt supplies the classification convention to limit disputes about 'not established'. Claim B intentionally says 'received' rather than 'was sent'. Claim E concerns scheduling, not public announcement; treating lack of an announced date as proof of no schedule would exceed the passage. Dominic should verify these boundaries before collection."
+  },
+  {
+    "task_id": "PR03",
+    "reference_version": "0.1",
+    "verification_status": "ai_checked_owner_review_pending",
+    "expected_answer": "One valid schedule is: file check 13:00–13:15; automatic printing 13:15–13:35; delivery collection 13:30–13:40; trimming 13:40–13:55; packing 13:55–14:05. Printing overlaps the delivery collection, which is permitted because printing is unattended. All attention-requiring activities are separate, and the dependencies and printer window are satisfied.",
+    "checklist": [
+      "Include one file check of 15 minutes, one print run of 20 minutes, fixed delivery collection 13:30–13:40, trimming of 15 minutes and packing of 10 minutes.",
+      "Complete the file check before or at the printing start and fit the whole print run inside 13:15–13:55.",
+      "Begin trimming only after or at print completion, and packing only after or at trimming completion.",
+      "Do not overlap the four activities requiring attention; overlap with automatic printing is allowed.",
+      "Keep every activity inside 13:00–14:30, show start and end times, and do not split or add activities.",
+      "Accept any schedule meeting the constraints; an explanation of permitted overlap is helpful but not mandatory."
+    ],
+    "evidence": [
+      "[C1]–[C5] specify the five activities, their durations, dependencies and fixed windows.",
+      "[C2] expressly permits the automatic print run to overlap another activity.",
+      "Example durations in minutes: check 15, printing 20, collection 10, trimming 15, packing 10.",
+      "Example attention intervals are [13:00,13:15), [13:30,13:40), [13:40,13:55), [13:55,14:05), with no overlap.",
+      "The example print interval [13:15,13:35) lies inside the available [13:15,13:55) window; trimming starts five minutes after it ends."
+    ],
+    "ambiguity_notes": "Multiple schedules are valid. This task intentionally differs from an all-activities-nonoverlap schedule: printing may overlap. The earliest possible finish is not requested and should not be added as a requirement."
+  },
+  {
+    "task_id": "PR04",
+    "reference_version": "0.1",
+    "verification_status": "ai_checked_owner_review_pending",
+    "expected_answer": "No. Two helpers who may each work at most one shift can cover only two of the three shifts. The 09:00 and 11:00 shifts also both require Asha under the original availability. One permitted repair is to let Asha cover one additional shift: Asha 09:00–10:00, Ben 10:00–11:00, Asha 11:00–12:00. Availability is unchanged and every shift is covered once. Alternatively, add a helper for either the first or last shift; Asha covers the other outer shift and Ben covers the middle one.",
+    "checklist": [
+      "Identify the original rota as infeasible.",
+      "Support infeasibility with the two-person/three-shift capacity limit or the fact that Asha alone is available for both outer shifts.",
+      "Choose one of the expressly allowed repairs and state it clearly.",
+      "Supply a complete rota covering each shift once for its full duration.",
+      "For an extra-shift repair, name Asha; giving Ben a second shift cannot solve his restricted availability.",
+      "For a new-helper repair, assign that helper to one outer shift, Asha to the other and Ben to the middle, with the new helper's required availability clear.",
+      "Stay within 150 words and do not quietly relax availability, split shifts or introduce additional helpers."
+    ],
+    "evidence": [
+      "Original maximum coverage is 1 shift for Asha + 1 shift for Ben = 2, below the required 3.",
+      "Ben cannot cover either outer shift; without a new helper, Asha must cover both and therefore needs exactly one extra allowed shift.",
+      "The example repair has Asha covering two available slots and Ben his only available slot.",
+      "Adding one helper on an outer shift also raises total capacity to three while satisfying all original-helper limits."
+    ],
+    "ambiguity_notes": "Two repair families are intentionally acceptable. A new helper may be named arbitrarily and made available for the one assigned shift; that is the requested proposal, not an unsupported claim about a real person. Only one repair and one full rota are required."
+  },
+  {
+    "task_id": "PR05",
+    "reference_version": "0.1",
+    "verification_status": "ai_checked_owner_review_pending",
+    "expected_answer": "Box 1: A, E and F, total 6 + 2 + 2 = 10 kg. Box 2: B, C and D, total 5 + 4 + 3 = 12 kg. Each box contains three items and stays at or below 12 kg; all six items appear once, A and B are separated, and E and F stay together. Swapping the box labels gives the same valid packing.",
+    "checklist": [
+      "Assign A–F exactly once across exactly two boxes.",
+      "Keep each box at no more than three items and no more than 12 kg.",
+      "Separate A and B and place E and F together.",
+      "List correct mass totals and briefly check all constraints.",
+      "Do not split, omit or duplicate items or invent extra capacity.",
+      "Assess alternative packings by the supplied constraints rather than the example's box numbering."
+    ],
+    "evidence": [
+      "Total item mass is 6 + 5 + 4 + 3 + 2 + 2 = 22 kg, within the combined 24 kg capacity but still requiring a feasible distribution.",
+      "Six items with a three-item limit in each of two boxes force exactly three items per box.",
+      "The box containing E and F must therefore take one of A, B, C or D. The remaining-box masses are respectively 12, 13, 14 or 15 kg, so only A with E and F works.",
+      "The resulting 10 kg and 12 kg boxes meet every constraint, with A and B in separate boxes."
+    ],
+    "ambiguity_notes": "The solution is unique apart from swapping box labels, but the response does not have to prove uniqueness. Item identifiers remain distinct even though E and F have equal mass. Capacities are inclusive: a box containing exactly 12 kg is allowed."
+  },
+  {
+    "task_id": "PR06",
+    "reference_version": "0.1",
+    "verification_status": "ai_checked_owner_review_pending",
+    "expected_answer": "The only feasible combination is S1 followed by T2: depart Brook 09:00, arrive Junction 09:20, wait 25 minutes, depart Junction 09:45 and arrive at the museum 10:15. It is therefore also the latest-departing feasible combination. S1–T1 and S2–T2 each allow only 10 minutes to transfer, below the required 12. Any connection using T3 arrives after the 10:30 deadline; the other pairings depart before the shuttle arrives.",
+    "checklist": [
+      "List S1–T2 as the only feasible combination.",
+      "Give its transfer wait as 25 minutes and recommend its 09:00 Brook departure as the latest feasible departure.",
+      "Apply the minimum 12-minute transfer rule, rejecting 10-minute connections.",
+      "Apply the museum-arrival deadline, rejecting every itinerary using T3.",
+      "Do not add an unlisted service, walking transfer or assumed exception.",
+      "A full explanation of rejected combinations is optional, but any provided reasons must match the timetable."
+    ],
+    "evidence": [
+      "Transfer waits in minutes for S1 against T1/T2/T3 are 10, 25 and 45; S2 gives −5, 10 and 30; S3 gives −20, −5 and 15.",
+      "A transfer wait must be at least 12 minutes, so timetable-compatible pairs are S1–T2, S1–T3, S2–T3 and S3–T3.",
+      "T3 arrives at 10:35, five minutes after the inclusive 10:30 deadline, removing all three T3 pairings.",
+      "S1–T2 arrives at 10:15 and departs Brook at the allowed earliest boundary 09:00."
+    ],
+    "ambiguity_notes": "No intended timetable ambiguity: clocks, day, allowed services, boundary inclusion and transfer allowance are all specified. Exactly 12 minutes would be acceptable if present, but no listed pair has that waiting time."
+  },
+  {
+    "task_id": "PR07",
+    "reference_version": "0.1",
+    "verification_status": "ai_checked_owner_review_pending",
+    "expected_answer": "09:00–09:15: J2, repair the label template.\n09:15–09:25: J3, print event labels.\n09:25–09:45: J1, archive old files.\n09:45–09:50: J4, write the handover note.\nAfter J2 finishes, J3 becomes ready. It has priority 1, ahead of the already-ready J1 at priority 2, so the rule selects J3 next.",
+    "checklist": [
+      "Use job order J2, J3, J1, J4.",
+      "Give exact intervals 09:00–09:15, 09:15–09:25, 09:25–09:45 and 09:45–09:50.",
+      "Respect J3's dependency on J2 and J4's dependencies on both J1 and J3.",
+      "Re-evaluate which jobs are ready after J2 finishes, selecting J3 because its priority number is lower than J1's.",
+      "Do not put J1 before J3 merely because it was ready earlier, and do not idle or interrupt a job."
+    ],
+    "evidence": [
+      "At 09:00, only J1 and J2 are ready; priority 1 selects J2 over J1's priority 2.",
+      "At 09:15, J3 has just become ready, and priority 1 selects it over J1.",
+      "At 09:25, J4 still awaits J1, so J1 is the only ready unfinished job.",
+      "At 09:45 both prerequisites of J4 are complete. Total duration 15 + 10 + 20 + 5 = 50 minutes gives finish 09:50."
+    ],
+    "ambiguity_notes": "The rule determines a unique schedule. The tie-break rule is supplied for completeness but is not actually needed in this job set. Describing a different queue discipline is not an acceptable alternative because the prompt fixes the selection rule."
+  },
+  {
+    "task_id": "PR08",
+    "reference_version": "0.1",
+    "verification_status": "ai_checked_owner_review_pending",
+    "expected_answer": "Arden at £90 is the cheapest option confirmed to meet every requirement. Bracken at £75 could become the cheaper qualifying choice, but its surface is unknown: confirm that it is matte before treating it as eligible. Clover exceeds the 5 kg limit and Dune lacks the required included stand. Ask the supplier for Bracken's surface specification before deciding; if it is matte, choose Bracken, otherwise Arden is the confirmed qualifying option. No contact or purchase has been made.",
+    "checklist": [
+      "Name Arden at £90 as the cheapest confirmed qualifying option.",
+      "Identify Bracken at £75 as a possible cheaper option, conditional on a matte surface.",
+      "Specify the missing check as whether Bracken's surface is matte.",
+      "Do not turn the question mark into either a confirmed pass or confirmed failure.",
+      "Recommend checking Bracken before a final choice, or give a clear conditional choice tied to that check.",
+      "Do not select Clover or Dune; the former is too heavy and the latter lacks an included stand.",
+      "Keep within 130 words and do not claim supplier contact or purchase occurred."
+    ],
+    "evidence": [
+      "The required maxima are inclusive: cost ≤ £100 and mass ≤ 5 kg, plus an included stand and matte surface.",
+      "Arden satisfies all four conditions from supplied facts.",
+      "Bracken's cost, mass and included stand qualify; its matte-surface condition remains unknown.",
+      "Clover fails mass (5.5 > 5); Dune fails the stand requirement.",
+      "Bracken costs £15 less than Arden, but lower price cannot resolve the missing surface information."
+    ],
+    "ambiguity_notes": "Deliberately incomplete product information. The optimisation rule is clear, unlike an undefined 'best' request; eligibility of one cheaper option is the uncertainty. Accept concise conditional wording without the optional £15 comparison. Buying a separate stand would alter the supplied options and is not established as feasible."
+  },
+  {
+    "task_id": "PR09",
+    "reference_version": "0.1",
+    "verification_status": "ai_checked_owner_review_pending",
+    "expected_answer": "Pencils: total needed 36, stock 9, shortfall 27; buy 3 packs of 10, leaving 9 + 30 − 36 = 3. Cards: total needed 54, stock 20, shortfall 34; buy 2 packs of 25, leaving 20 + 50 − 54 = 16. Envelopes: total needed 18, stock 5, shortfall 13; buy 2 packs of 8, leaving 5 + 16 − 18 = 3. The requested table should contain these three rows. Divide each shortfall by its pack size and round upward: ceiling(27/10)=3, ceiling(34/25)=2, ceiling(13/8)=2.",
+    "checklist": [
+      "Provide a table with a row each for pencils, cards and envelopes and the four requested data columns.",
+      "Calculate requirements 36 pencils, 54 cards and 18 envelopes, retaining existing stock 9, 20 and 5.",
+      "Buy 3 pencil packs, 2 card packs and 2 envelope packs.",
+      "Calculate leftovers after all 18 kits as 3 pencils, 16 cards and 3 envelopes.",
+      "Explain upward rounding of each shortfall divided by the relevant pack size, or show equivalent whole-pack reasoning.",
+      "Do not round to the nearest pack or ignore existing stock; do not substitute supplies."
+    ],
+    "evidence": [
+      "Kit totals: 18×2=36 pencils, 18×3=54 cards, 18×1=18 envelopes.",
+      "Shortfalls are 36−9=27, 54−20=34 and 18−5=13.",
+      "Minimum-pack check: 2 pencil packs supply only 20<27; 1 card pack only 25<34; 1 envelope pack only 8<13.",
+      "The next pack counts cover each shortfall: 30≥27, 50≥34 and 16≥13.",
+      "Stock plus purchased items minus required items gives leftovers 3, 16 and 3 respectively."
+    ],
+    "ambiguity_notes": "No intended ambiguity. Each supply is purchased independently, with no mixed packs or price optimisation. A row-label column is naturally permitted in addition to the four requested columns. Equivalent table layouts and the word 'round up' instead of ceiling notation are acceptable."
+  },
+  {
+    "task_id": "PR10",
+    "reference_version": "0.1",
+    "verification_status": "ai_checked_owner_review_pending",
+    "expected_answer": "In UTC the availability windows are Maya 09:00–10:00, Luis 09:30–10:15 and Sana 09:45–10:30. Their original overlap is 09:45–10:00, only 15 minutes, so a 30-minute call is impossible. Maya must extend her end by the full 15 minutes, to 10:15 local/UTC; a smaller extension would leave less than 30 minutes of overlap. The call is 09:45–10:15 UTC: Maya 09:45–10:15, Luis 06:45–07:15 and Sana 11:45–12:15 local.",
+    "checklist": [
+      "Convert the original windows correctly to UTC: 09:00–10:00, 09:30–10:15 and 09:45–10:30.",
+      "Identify the original common interval as 09:45–10:00 UTC, lasting 15 minutes, and conclude the original request is infeasible.",
+      "Extend only Maya's ending time by the minimum 15 minutes, to 10:15 UTC/local.",
+      "Give the repaired call as 09:45–10:15 UTC and Maya local, 06:45–07:15 Luis local, and 11:45–12:15 Sana local.",
+      "Explain why an extension shorter than 15 minutes cannot create a 30-minute overlap.",
+      "Do not change starting times, other teammates' availability, the fixed offsets or the date."
+    ],
+    "evidence": [
+      "UTC conversion: subtract the stated offset from local time. Luis's UTC−3 times gain 3 hours; Sana's UTC+2 times lose 2 hours.",
+      "The common start is max(09:00,09:30,09:45)=09:45 and original common end is min(10:00,10:15,10:30)=10:00.",
+      "Extending Maya's end by x minutes for 0≤x≤15 gives overlap length 15+x minutes. At least 30 requires x≥15.",
+      "At x=15 the overlap is exactly 09:45–10:15 UTC; converting it back gives each local call interval in the expected answer."
+    ],
+    "ambiguity_notes": "No daylight-saving or geographic knowledge is required: the exercise fixes all offsets. The repaired slot and minimum extension are unique under the supplied constraints. Accept 24-hour times with or without explicit leading zeros if the clock and date are clear."
+  }
+]

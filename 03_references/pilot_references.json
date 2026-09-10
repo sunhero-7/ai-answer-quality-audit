@@ -2,7 +2,7 @@
   {
     "task_id": "MP01",
     "reference_version": "0.1",
-    "verification_status": "pending_dominic",
+    "verification_status": "ai_checked_owner_review_pending",
     "expected_answer": "The first leg takes 600 ÷ 4.0 = 150 seconds. The second takes 900 ÷ 6.0 = 150 seconds. Total distance = 600 + 900 = 1,500 metres. Total elapsed time = 150 + 90 + 150 = 390 seconds. Average speed = 1,500 ÷ 390 = 3.846153… m/s, or 3.85 m/s to two decimal places. Converting the unrounded value: (1,500 ÷ 390) × 3.6 = 13.846153… km/h, or 13.85 km/h.",
     "checklist": [
       "Calculate each moving leg as 150 seconds and include the 90-second stop, giving 390 seconds in total.",
@@ -22,7 +22,7 @@
   {
     "task_id": "MP02",
     "reference_version": "0.1",
-    "verification_status": "pending_dominic",
+    "verification_status": "ai_checked_owner_review_pending",
     "expected_answer": "“Effort” is ambiguous. If it means pushing force, the longer ramp requires half as much: at constant speed the force along the slope balances the downhill component of weight, F = mgh/L. Both ramps raise the same trolley through the same height, so the work transferred by the worker is the same, mgh. The longer ramp halves the force but doubles the distance. At the same speed it also takes twice as long. The claim of less transferred energy is therefore incorrect under the stated ideal assumptions. Human tiredness or energy used by the worker’s body cannot be determined from this simple mechanical model.",
     "checklist": [
       "Distinguish at least pushing force from mechanical work/energy when interpreting “effort”.",
@@ -44,7 +44,7 @@
   {
     "task_id": "CS01",
     "reference_version": "0.1",
-    "verification_status": "pending_dominic",
+    "verification_status": "ai_checked_owner_review_pending",
     "expected_answer": "You can request a return: the lamp is within the 30-day window and you say it is unused and undamaged. The original carton is not required, but please pack it securely. The eligible refund is £36 for the lamp; the £4 standard delivery charge is not refundable, and you pay return postage. Before sending it, email support with your order number and a photo showing its condition. Support will provide the return authorisation and address. After receipt and inspection, the eligible refund goes to your original payment method within five business days.",
     "checklist": [
       "Explain that the described item is eligible for a return request within 30 days, subject to the stated item condition and subsequent inspection.",
@@ -67,7 +67,7 @@
   {
     "task_id": "CS02",
     "reference_version": "0.1",
-    "verification_status": "pending_dominic",
+    "verification_status": "ai_checked_owner_review_pending",
     "expected_answer": "Your request arrived at 15:30 on Thursday, before the 16:00 deadline for Friday’s booking. A move to Sunday still needs confirmation of the depot’s Sunday hours and drill availability; this extract does not confirm whether Sunday collection is possible. If Sunday collection is unavailable, your cancellation request qualifies for no charge because it was received before the deadline, even if processed later. The next step is for support to check Sunday collection and then confirm the change or cancellation. I cannot confirm a booking change or cancellation from the policy alone.",
     "checklist": [
       "Recognise that Thursday 15:30 is before the Thursday 16:00 cutoff for the original Friday collection.",
@@ -89,7 +89,7 @@
   {
     "task_id": "RC01",
     "reference_version": "0.1",
-    "verification_status": "pending_dominic",
+    "verification_status": "ai_checked_owner_review_pending",
     "expected_answer": "Example summary: Riverside’s six-week Tuesday workshop had 24 registrations and 18 people attend at least once. Of 12 survey respondents, ten found it useful and eight preferred a later start. The next block will remain at 17:00 because the caretaker is unavailable later, while staff track attendance and keep a waiting list before considering changes.\n\nSeparate conclusion: No—the survey records a preference among respondents, but it does not establish why people missed sessions or whether a later start would increase attendance.",
     "checklist": [
       "Summarise the workshop trial and planned next block without changing the meaning of attendance or survey counts.",
@@ -113,7 +113,7 @@
   {
     "task_id": "RC02",
     "reference_version": "0.1",
-    "verification_status": "pending_dominic",
+    "verification_status": "ai_checked_owner_review_pending",
     "expected_answer": "1. Anika leaves the entrance lamp on and places a “Please ring the bell” note on the door.\n2. She may be waiting for a visitor: she prepares two clean mugs and repeatedly checks the street. This is an inference, not a confirmed explanation.\n3. The passage does not establish whether anybody arrives.",
     "checklist": [
       "Give two actual actions from the passage as explicit facts, rather than turning a possible motive into a fact.",
@@ -136,7 +136,7 @@
   {
     "task_id": "PR01",
     "reference_version": "0.1",
-    "verification_status": "pending_dominic",
+    "verification_status": "ai_checked_owner_review_pending",
     "expected_answer": "One valid schedule is:\n09:00–09:20 — Equipment check.\n09:30–09:40 — Client call.\n09:50–10:00 — Break.\n10:00–10:30 — Recording.\n10:30–10:45 — Write notes.\nSpare intervals are deliberately left unassigned. Other schedules satisfying every stated constraint are also valid.",
     "checklist": [
       "Schedule all five named activities once, in chronological order, with both start and end times.",
@@ -162,7 +162,7 @@
   {
     "task_id": "PR02",
     "reference_version": "0.1",
-    "verification_status": "pending_dominic",
+    "verification_status": "ai_checked_owner_review_pending",
     "expected_answer": "Alder and Birch meet every requirement. Cedar is too small for ten people, and Maple exceeds the £80 budget. Before booking, ask whether the organiser prefers the earlier 14:00 start or saving £10 with Birch’s 15:00 start. “Best” is not defined by the supplied requirements. If lowest price is the priority, recommend Birch; if an earlier meeting is preferred, Alder is the option. No booking has been made.",
     "checklist": [
       "Identify both Alder and Birch as satisfying the duration, time window, capacity, access, Wi-Fi and budget requirements.",
