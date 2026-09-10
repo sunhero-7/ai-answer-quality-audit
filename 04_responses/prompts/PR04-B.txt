@@ -1,0 +1,3 @@
+A fictional pop-up stall has three one-hour shifts: 09:00–10:00, 10:00–11:00 and 11:00–12:00. Exactly one person must cover each full shift, with no splitting. The only helpers are Asha and Ben. Asha is available for all three shifts; Ben is available only for 10:00–11:00. Each helper may cover at most one shift.
+
+Can all shifts be covered under these rules? Explain briefly. Then give one of these two repairs, with a complete rota: either allow one named helper to cover one additional shift while keeping availability unchanged, or add one new helper who covers exactly one shift. Do not change any other rule. Use no more than 150 words.

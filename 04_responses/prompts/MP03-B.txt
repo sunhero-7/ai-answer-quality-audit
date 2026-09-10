@@ -1,0 +1,3 @@
+A community hall's monthly electricity use was 250 kWh. In April it fell by 20% compared with that amount. In May it rose by 20% compared with April.
+
+Calculate April's use, May's use, and May's net percentage change relative to the original 250 kWh. Show your working. Then explain in one sentence why the decrease and increase do or do not cancel.

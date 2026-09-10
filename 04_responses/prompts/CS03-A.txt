@@ -1,0 +1,10 @@
+Use only this fictional Fern Paperworks policy:
+
+[P1] When tracking says delivered but a parcel is missing, the customer should first check the designated safe place and ask other members of their household.
+[P2] If it is still missing, support needs the order number and confirmation of the delivery address to open a delivery review.
+[P3] After receiving those details, support provides a review update within two business days. This is an update deadline, not a promise that the review will be resolved then.
+[P4] A replacement or refund can be offered only after the delivery review establishes eligibility. This extract does not promise next-day delivery of replacements.
+
+Customer message: “Tracking says my notebook parcel was delivered today, but I cannot find it. I have checked the safe place and asked everyone in my household. Please send a replacement to arrive tomorrow.”
+
+Write a helpful customer-facing reply in no more than 100 words. You have no order details, tracking access or ability to take account actions.

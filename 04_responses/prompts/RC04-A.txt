@@ -1,0 +1,13 @@
+Read this original passage:
+
+[S1] Bea and Noor were sorting materials in the community hall.
+[S2] Bea handed Noor a notebook beside the window.
+[S3] She said, “Please leave it on the blue chair; I'll collect it after rehearsal.”
+[S4] Noor then carried the notebook to the blue chair.
+[S5] Later, the caretaker moved the blue chair into the store cupboard, with the notebook still on its seat.
+[S6] The passage gives no later conversation about the notebook.
+
+Answer in three numbered points, using no more than 100 words in total:
+1. Who moves the notebook to the blue chair?
+2. Does the passage unambiguously identify who says they will collect it? Explain briefly.
+3. Where is the notebook last explicitly located?

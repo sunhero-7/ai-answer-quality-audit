@@ -1,0 +1,8 @@
+A volunteer team needs one portable screen for a workshop. It must cost at most £100, weigh at most 5 kg, include a stand and have a matte surface. The only available options are listed below. A question mark means the supplier has not provided that information; it does not mean yes or no.
+
+[A] Arden: £90; 4.5 kg; stand included; matte surface yes.
+[B] Bracken: £75; 4.0 kg; stand included; matte surface ?.
+[C] Clover: £85; 5.5 kg; stand included; matte surface yes.
+[D] Dune: £95; 4.0 kg; no stand included; matte surface yes.
+
+The organiser says, “Choose the cheapest screen that meets every requirement.” Identify the cheapest option confirmed to qualify, the option that might change that choice after a check, and exactly what needs checking. Recommend a next step without claiming to have contacted a supplier or purchased anything. Keep your response within 130 words.

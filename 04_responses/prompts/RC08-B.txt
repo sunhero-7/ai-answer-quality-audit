@@ -1,0 +1,10 @@
+Read this original passage:
+
+[S1] The community seed swap will accept labelled packets at the library desk from Monday to Thursday during normal library opening hours.
+[S2] Each label must give the plant name and the year the seeds were collected.
+[S3] Homemade envelopes are welcome if they close securely; original shop packets are not required.
+[S4] The organisers cannot accept loose seeds, seeds without labels, or packets showing visible mould.
+[S5] Donations are optional: visitors may take part in Saturday's swap even if they have no seeds to bring.
+[S6] The library has not listed its opening hours in this announcement.
+
+Write a plain-English summary for visitors in no more than 75 words. Include when and where to donate, both label requirements, the packaging rule, the exclusions and whether a donation is needed to attend. Do not invent exact opening times.

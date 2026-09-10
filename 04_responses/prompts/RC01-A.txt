@@ -1,0 +1,10 @@
+Read this original passage:
+
+[S1] Riverside Community Library ran a six-week trial of a free Tuesday workshop starting at 17:00.
+[S2] Twenty-four people registered, and eighteen attended at least once.
+[S3] After the trial, twelve participants returned a survey: ten called the workshop useful, and eight said they would prefer a later start.
+[S4] The survey did not ask why people missed sessions, and the library did not contact people who registered but never attended.
+[S5] For the next six-week block, the library kept the 17:00 start because its caretaker was unavailable later in the evening.
+[S6] Staff planned to record attendance and keep a waiting list during the next block before considering further changes.
+
+Summarise the trial and the next steps in no more than 70 words. Then, in a separate sentence, state whether the passage establishes that starting later would increase attendance, and briefly explain why.

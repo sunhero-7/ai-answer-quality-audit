@@ -1,0 +1,10 @@
+Use only this fictional Little Lantern Workshops policy:
+
+[P1] For a Saturday 10:00 workshop, a cancellation received by Friday 10:00 inclusive receives a full refund of the workshop fee.
+[P2] Cancellations received after Friday 10:00 receive a 50% refund of the workshop fee. The time of receipt, not the time a staff member reads the message, determines the amount.
+[P3] If the customer explicitly chooses cancellation, support can process the eligible refund after locating the booking using the booking reference. Refunds reach the original payment method within five business days after processing.
+[P4] All times in this policy and in the message details below use the same local time zone. There is no separate booking fee.
+
+Message received Friday at exactly 10:00: “Please cancel my place at tomorrow's 10:00 workshop. I paid £48. I don't have my booking reference with this message. Does it matter if nobody reads this until the afternoon?”
+
+Draft a customer-facing reply of no more than 100 words. You have no booking access and cannot process the cancellation yourself.

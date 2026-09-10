@@ -1,0 +1,10 @@
+Plan one person's work from 13:00 to 14:30 using these constraints:
+
+[C1] Check a digital exhibit-card file for 15 continuous minutes before printing begins.
+[C2] Printing then runs automatically for 20 continuous minutes. The printer is available only from 13:15 to 13:55, and the entire print run must fit inside that window. Printing needs no supervision and may overlap another activity.
+[C3] Collect a delivery in person from exactly 13:30 to 13:40.
+[C4] Trim the printed cards for 15 continuous minutes after printing finishes.
+[C5] Pack the trimmed cards for 10 continuous minutes after trimming finishes.
+[C6] The file check, delivery collection, trimming and packing all require the person's full attention and cannot overlap one another. No activity may be split. Boundary adjacency is allowed.
+
+Give one valid schedule with start and end times for all five activities. Leave spare time unassigned; the goal is feasibility, not the earliest finish.

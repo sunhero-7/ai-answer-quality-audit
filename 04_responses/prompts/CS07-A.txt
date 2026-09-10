@@ -1,0 +1,10 @@
+Use only this fictional Meadow Stationery policy:
+
+[P1] The code DRAW10 takes 10% off full-price stationery items. It does not apply to gift cards, delivery charges or already-discounted items.
+[P2] A free eraser is included only when the eligible stationery subtotal, after discounts, is at least £30. Gift cards and delivery charges do not count towards this threshold.
+[P3] Standard delivery costs £4 for this order. DRAW10 can be used once on an order and has no minimum spend.
+[P4] Only one promotional code may be applied to an order. Prices below already include any applicable taxes.
+
+Customer message: “My basket has £30 of full-price stationery and a £10 gift card. I want to use DRAW10, plus another 5%-off code. Including standard delivery, what would I pay using DRAW10 alone, and would I get the free eraser?”
+
+Draft a customer-facing reply in no more than 110 words. Show the main calculation. You cannot place or alter an order.

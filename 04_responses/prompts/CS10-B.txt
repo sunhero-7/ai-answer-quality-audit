@@ -1,0 +1,10 @@
+Use only this fictional Willow Clay Sessions policy:
+
+[P1] The evening pottery class is for participants aged 16 or over. The family class is for participants aged 8 or over; anyone under 16 in a family class must attend with a paying adult.
+[P2] Gift vouchers may be redeemed against either class, subject to age rules and available places. A voucher does not reserve a seat.
+[P3] Vouchers expire 12 months after issue. A class must take place on or before the printed expiry date; making the booking before expiry is not enough.
+[P4] Support needs the intended participant's age, class date and voucher expiry date before checking a suitable booking. This extract contains no timetable or availability information.
+
+Customer message: “I have a voucher for my nephew. I'd like to put him in an evening class next month. I can book before the voucher expires, but the class might be after that. Can you confirm a place?” The nephew's age and the two dates are not provided.
+
+Draft a customer-facing reply in no more than 120 words. You cannot check a timetable or reserve a place.

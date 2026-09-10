@@ -1,0 +1,3 @@
+A handheld display reports each true distance to the nearest whole metre. It rounds halfway values upward: a true value from 9.5 m inclusive to 10.5 m exclusive is displayed as 10 m. Two readings are displayed as 10 m and 14 m. No other information or measurement error is involved.
+
+Find the possible interval for the mean of the two true distances, saying whether each endpoint is included. Is that true mean necessarily exactly 12 m? Show your reasoning and do not assume where within their rounding intervals the true values lie.

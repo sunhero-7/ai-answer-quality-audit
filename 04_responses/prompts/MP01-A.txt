@@ -1,0 +1,3 @@
+A park ranger drives an electric cart 600 metres at a constant speed of 4.0 m/s, stops for 90 seconds, and then drives another 900 metres at a constant speed of 6.0 m/s. Ignore acceleration and braking time.
+
+Calculate the average speed for the entire journey, including the stop, in m/s and km/h. Show your working and round both final speeds to two decimal places.

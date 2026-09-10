@@ -1,0 +1,16 @@
+Read this original passage:
+
+[S1] The Brookside walking group planned two routes for its Sunday outing: a 4-kilometre riverside route and a 7-kilometre hill route.
+[S2] Rain on Saturday made the hill path muddy, so the organisers cancelled the hill route but kept the riverside route.
+[S3] They emailed everyone who had registered and posted the change on the group's noticeboard.
+[S4] Fourteen registered walkers attended the riverside outing on Sunday; the passage gives no total registration count.
+[S5] At the end, two walkers suggested offering the hill route later in the month, but the organisers did not announce another date.
+
+For each claim below, write 'supported', 'contradicted' or 'not established' and give a brief reason tied to the passage. Keep the whole answer within 110 words.
+A. All routes for Sunday were cancelled.
+B. Every registered walker received an email about the change.
+C. Fourteen registered walkers attended on Sunday.
+D. Most registered walkers attended on Sunday.
+E. Another hill-route outing was scheduled for later in the month.
+
+Treat 'emailed' as establishing that messages were sent, without assuming that they were delivered or read. A claim is 'contradicted' only when the passage provides information incompatible with it; missing evidence alone means 'not established'.

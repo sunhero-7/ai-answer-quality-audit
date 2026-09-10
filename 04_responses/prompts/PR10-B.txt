@@ -1,0 +1,7 @@
+Three teammates need one continuous 30-minute call on the same date. For this exercise, the clock offsets below are fixed and there are no daylight-saving changes. A call must fit entirely inside every person's availability; it may start or finish exactly at a boundary.
+
+[M1] Maya's local clock is UTC+0. She is available 09:00–10:00 local.
+[M2] Luis's local clock is UTC−3. He is available 06:30–07:15 local.
+[M3] Sana's local clock is UTC+2. She is available 11:45–12:30 local.
+
+First decide whether a 30-minute call is possible with the original availability, showing the shared interval in UTC. If it is impossible, only Maya may extend the end of her availability, by at most 15 minutes. Find the smallest extension that makes the call possible and give the resulting call time in UTC and on all three local clocks. Do not change anyone's starting time.

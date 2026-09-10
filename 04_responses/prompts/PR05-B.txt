@@ -1,0 +1,3 @@
+Six indivisible display items have these masses: A 6 kg, B 5 kg, C 4 kg, D 3 kg, E 2 kg and F 2 kg. Use exactly two boxes. Each box may contain at most three items and at most 12 kg of items; ignore the box's own mass. Put every item in exactly one box. Items A and B must be in different boxes, and items E and F must stay together.
+
+Give one valid packing, listing the items and total item mass in each box. Briefly show that all constraints are satisfied. Do not split items or add boxes.

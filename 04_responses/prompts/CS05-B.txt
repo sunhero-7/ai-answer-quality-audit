@@ -1,0 +1,10 @@
+Use only this fictional Otter Tableware policy:
+
+[P1] Customers must report an item damaged on arrival within seven calendar days after delivery.
+[P2] Support needs the order number, a photo of the damage and a photo of the outer packaging before reviewing a damage claim. The customer should keep both the item and packaging until the review is complete.
+[P3] Once a claim is approved, the customer may choose an item-price refund or a replacement if that item is in stock. For a multi-item order, the refund covers only the damaged item.
+[P4] Support supplies any necessary return instructions and pays any return postage it requires. Customers should not post items back before receiving those instructions.
+
+Customer message: “My order arrived three days ago. One £12 bowl is chipped; the other two £12 bowls are fine. I still have the box. Can you refund all £36? Shall I send everything back now?”
+
+Draft a customer-facing reply in no more than 120 words. You have no photos, order number, stock information or authority to approve the claim.

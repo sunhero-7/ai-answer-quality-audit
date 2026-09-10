@@ -1,0 +1,10 @@
+Plan one person's work between 09:00 and 11:00 using these constraints:
+
+[C1] Complete an equipment check lasting 20 minutes before starting the recording.
+[C2] Attend a client call from exactly 09:30 to 09:40.
+[C3] Make a recording lasting 30 minutes. The recording room is available only from 10:00 to 10:40, so the whole recording must fit within that window.
+[C4] Write notes for 15 minutes after the recording has finished.
+[C5] Take one continuous 10-minute break that starts no earlier than 09:50 and finishes no later than 10:20.
+[C6] Do not overlap or split activities. All five activities must finish by 11:00. An activity may begin immediately when another ends.
+
+Give a valid schedule with start and end times for all five activities in chronological order. Leave spare time unassigned and do not add activities.

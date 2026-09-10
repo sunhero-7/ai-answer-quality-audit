@@ -1,0 +1,10 @@
+One operator must complete four jobs, without interruption or overlap, starting at 09:00. No new jobs arrive. The jobs are:
+
+[J1] Archive old files: 20 minutes; ready at 09:00; priority 2.
+[J2] Repair a label template: 15 minutes; ready at 09:00; priority 1.
+[J3] Print event labels: 10 minutes; becomes ready only when J2 finishes; priority 1.
+[J4] Write a handover note: 5 minutes; becomes ready only when both J1 and J3 finish; priority 1.
+
+At each time the operator is free, start a ready unfinished job immediately. Among ready jobs, choose the lowest priority number; break any tie by the lowest job number. A running job must finish before another begins.
+
+Give the resulting schedule with all start and end times in chronological order. Briefly explain the choice made immediately after J2 finishes.

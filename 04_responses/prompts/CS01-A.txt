@@ -1,0 +1,11 @@
+Use only this fictional Lark Desk Co policy:
+
+[P1] Customers may request a change-of-mind return within 30 calendar days after delivery. The item must be unused and undamaged.
+[P2] Before sending an item back, the customer must email support with the order number and a photo showing the item's current condition. Support then supplies a return authorisation and return address.
+[P3] The original carton is preferred but not required. The customer must pack the item securely.
+[P4] The customer pays return postage. The original standard delivery charge is not refunded for a change-of-mind return.
+[P5] After the returned item has been received and inspected, the eligible item price is refunded to the original payment method within five business days.
+
+Customer message: “My lamp arrived 18 days ago. It is unused and undamaged, but I threw away the carton. I paid £36 for the lamp and £4 for standard delivery. Can I return it and get all £40 back? Where should I send it?”
+
+Draft a helpful customer-facing reply of no more than 130 words. You have no access to the customer's order or any address beyond the policy above.

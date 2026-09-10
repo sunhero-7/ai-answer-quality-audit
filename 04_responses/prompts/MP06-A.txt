@@ -1,0 +1,3 @@
+Two lamps operate steadily at their stated electrical input powers. Lamp A uses 12 W and is on for 5 hours. Lamp B uses 8 W and is on for 8 hours. Ignore standby use. Use energy = power × time, 1 kWh = 1,000 Wh and 1 Wh = 3,600 J.
+
+Calculate each lamp's energy use in Wh and kWh. State which uses more energy and by how much in Wh and joules. Explain briefly why lower power does not necessarily mean lower total energy use. Show your working.

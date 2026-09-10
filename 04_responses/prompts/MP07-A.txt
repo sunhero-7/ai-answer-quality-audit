@@ -1,0 +1,3 @@
+A uniform rectangular block has mass 180 g and dimensions 6.0 cm × 4.0 cm × 2.5 cm. Treat these measurements as exact for this exercise. Use volume = length × width × height and density = mass / volume. There are 100 cm in 1 m and 1,000 g in 1 kg.
+
+Calculate the block's volume in cm³ and m³, then its density in g/cm³ and kg/m³. Show the unit conversions and explain why converting cm³ to m³ involves cubing the length conversion.
