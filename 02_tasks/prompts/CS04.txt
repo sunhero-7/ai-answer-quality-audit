@@ -1,0 +1,11 @@
+Use only this fictional Brush Box Club policy:
+
+[P1] Membership is billed on the first day of each month for that whole month.
+[P2] A pause for a month must be requested by 23:59 on the 25th of the preceding month. Requests received later cannot pause that month.
+[P3] Members may pause one or two consecutive whole months. Billing resumes automatically on the first day of the month following the selected pause.
+[P4] A pause does not refund or partly refund the current month's membership charge.
+[P5] Support must receive the member's confirmation of the selected eligible pause months before applying a pause.
+
+It is 26 May. Customer message: “Please pause my membership for June and July and refund the unused part of May. If those dates don't work, tell me what happens if I pause July only.” Assume this request is received today.
+
+Draft a customer-facing reply of no more than 120 words. You can explain the policy but cannot modify the membership.

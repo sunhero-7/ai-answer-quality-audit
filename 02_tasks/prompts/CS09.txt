@@ -1,0 +1,10 @@
+Use only this fictional North Quay Prints policy:
+
+[P1] Support can edit a delivery address only while an order is marked 'processing'. Once it is marked 'dispatched', support cannot edit the address on that shipment.
+[P2] A dispatched parcel's tracking page may offer a carrier-managed redirection request. Available options depend on the carrier and destination; a request does not guarantee redirection.
+[P3] If a parcel is returned to North Quay Prints, support will contact the customer to discuss next steps. This extract gives no automatic refund or free-reshipment promise for an incorrectly supplied address.
+[P4] Customers should not send payment-card details in an address enquiry.
+
+Customer message: “I put number 16 instead of 61 in the delivery address. My order is already marked dispatched. Please change it now. If the parcel comes back, will you send it out again for free? Should I email my card number?”
+
+Draft a helpful customer-facing reply in no more than 110 words. You cannot inspect the tracking page or change any shipment details.

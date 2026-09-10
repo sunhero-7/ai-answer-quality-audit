@@ -1,0 +1,13 @@
+Use only this fictional same-day timetable. All times use the same local clock. A shuttle goes from Brook to Junction, and a train then goes from Junction to the museum. The traveller starts at Brook no earlier than 09:00 and must arrive at the museum by 10:30 inclusive. A connection is allowed only when the train departs at least 12 minutes after the shuttle arrives. No walking or other services are available.
+
+Shuttles:
+[S1] Brook 09:00 → Junction 09:20.
+[S2] Brook 09:15 → Junction 09:35.
+[S3] Brook 09:30 → Junction 09:50.
+
+Trains:
+[T1] Junction 09:30 → museum 10:00.
+[T2] Junction 09:45 → museum 10:15.
+[T3] Junction 10:05 → museum 10:35.
+
+List every feasible shuttle–train combination. Then recommend the combination that leaves Brook latest among the feasible ones. Show the transfer waiting time for each listed combination.

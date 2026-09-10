@@ -1,0 +1,10 @@
+Use only this fictional Elm Makers Studio information:
+
+[P1] The front entrance has three steps. A step-free side entrance is available during staffed hours, 09:00–17:00 Monday–Friday.
+[P2] Visitors who need the side entrance should email support with their visit date and arrival time at least one business day before the visit so staff can arrange access.
+[P3] The studio room is on the ground floor. The accessible toilet's doorway clear width is not stated in this information; support can ask the building team for the measurement.
+[P4] Booking a workshop does not automatically arrange side-entrance access. No access arrangement is confirmed until support replies to confirm it.
+
+Customer message received Monday at 11:00: “I'm booked for a workshop this Wednesday at 14:00 and plan to arrive at 13:45. I use a wheelchair. Can I get in without steps, and is the toilet doorway at least 85 cm wide?” Assume this week has no public holidays.
+
+Write a customer-facing reply of no more than 120 words. You have only this information and cannot contact the building team or make access arrangements yourself.

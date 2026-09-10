@@ -1,0 +1,3 @@
+A bag contains four blue counters and two orange counters. Each individual counter is equally likely to be selected. Two counters are drawn one at a time without replacement.
+
+Find the probability that both are blue and the probability that at least one is orange. Give each as a simplified fraction and a percentage, and show your reasoning. Explain briefly why the second blue probability is not 4/6 after a blue counter has been drawn first.

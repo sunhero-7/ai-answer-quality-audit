@@ -1,0 +1,12 @@
+Read this original passage:
+
+[S1] A town museum invited all 50 volunteers to complete a questionnaire about its online rota.
+[S2] Twenty volunteers replied, and 15 of those respondents said the rota was easy to use.
+[S3] Of the same 20 respondents, six requested larger text; the questionnaire allowed people to call the rota easy and also request larger text.
+[S4] The museum did not record why the other 30 volunteers did not reply.
+[S5] Staff planned to test a larger-text option with volunteers next month, but had not yet selected participants.
+
+Answer in three numbered points, using no more than 110 words in total:
+1. What percentage of questionnaire respondents called the rota easy to use? Show the denominator.
+2. Does the passage establish that 75% of all 50 volunteers found it easy? Explain.
+3. Can the six larger-text requests be treated as six additional respondents, separate from the 15 who found it easy? Explain briefly and name the planned next step.

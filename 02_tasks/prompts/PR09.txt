@@ -1,0 +1,3 @@
+Prepare exactly 18 identical workshop kits. Each kit needs two pencils, three blank cards and one envelope. Existing stock contains 9 pencils, 20 blank cards and 5 envelopes. New supplies are sold only in whole packs: pencils in packs of 10, cards in packs of 25 and envelopes in packs of 8. Assume all stock is usable.
+
+Buy the smallest possible number of packs of each supply that allows all 18 kits to be assembled. Give a table with one row per supply and these columns: total needed, existing stock, packs to buy, items left after assembly. Show or explain how you rounded the shortfall to whole packs. Do not substitute items between kits.

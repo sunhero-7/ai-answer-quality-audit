@@ -1,0 +1,6 @@
+A 0.50 kg toy cart moves in a straight line. Its velocity changes from +2.0 m/s to −1.0 m/s over 0.25 s. East is the positive direction and the cart's mass is constant.
+
+Use average acceleration = (final velocity − initial velocity) / elapsed time and average net force = mass × average acceleration. Answer in exactly three numbered points:
+1. Calculate the average acceleration with units and direction.
+2. Calculate the average net force with units and direction.
+3. Explain why subtracting the speeds 2.0 and 1.0 would be wrong here. Show the essential working within the relevant points.

@@ -1,0 +1,3 @@
+In an ideal exercise, beaker A contains 0.50 kg of water and beaker B contains 1.00 kg of water. Each receives exactly 4,200 J of heat. No heat is lost, the containers absorb no heat, and neither sample changes phase. Use Q = mcΔT with water's specific heat capacity c = 4,200 J/(kg·°C). The initial temperatures are not supplied and need not be equal.
+
+Calculate each temperature rise. Can you conclude that A ends at a higher temperature than B? Explain what further information is needed, using no more than 130 words in total.

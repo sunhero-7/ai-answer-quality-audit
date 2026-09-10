@@ -1,0 +1,9 @@
+Read this original passage:
+
+[S1] On 4 October, Oak Lane Arts Centre posted a notice saying that its Saturday drawing session on 12 October would begin at 11:00 in Room A.
+[S2] On 7 October, the centre issued a replacement notice: the same session would begin at 12:00 in Room B because Room A needed repairs.
+[S3] The replacement notice said that the date and £6 entry price were unchanged and that people should use its time and room details instead of the earlier notice.
+[S4] On 9 October, a visitor found a printed copy of the first notice in a nearby café.
+[S5] No further change is reported in the passage.
+
+Using only the passage, write a reply to the visitor in no more than 80 words that gives the applicable date, start time, room and price, and explains why the café notice differs.
